@@ -11,7 +11,7 @@ var DEGREELELO_CONFIG = {
   // and paste its form ID here (the part after /f/ in your endpoint).
   formspreeFormId: "YOUR_FORMSPREE_ID",
   // WhatsApp Business number in international format, digits only (no + or spaces).
-  whatsappNumber: "911234567890"
+  whatsappNumber: "917304305424"
 };
 
 (function () {
