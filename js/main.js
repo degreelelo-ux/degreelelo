@@ -1,15 +1,12 @@
 /**
- * DegreeLelo — site behaviour: mobile nav, enquiry modal (Formspree), college predictor.
+ * DegreeLelo — site behaviour: mobile nav, enquiry modal (Google Form), college predictor.
  * No framework, no dependencies.
  */
 
 /* -------------------------------------------------------------
- * CONFIG — replace before going live
+ * CONFIG
  * ----------------------------------------------------------- */
 var DEGREELELO_CONFIG = {
-  // Create a form at https://formspree.io pointed at degreelelo@gmail.com
-  // and paste its form ID here (the part after /f/ in your endpoint).
-  formspreeFormId: "YOUR_FORMSPREE_ID",
   // WhatsApp Business number in international format, digits only (no + or spaces).
   whatsappNumber: "917304305424"
 };
@@ -62,18 +59,8 @@ var DEGREELELO_CONFIG = {
   var closeBtn = modal.querySelector("[data-modal-close]");
   var statusBox = modal.querySelector("[data-form-status]");
   var successBox = modal.querySelector("[data-form-success]");
+  var hiddenIframe = modal.querySelector('iframe[name="hidden_iframe"]');
   var lastFocused = null;
-
-  // wire the formspree action from config if left as data-endpoint
-  if (form) {
-    var endpoint = form.getAttribute("data-endpoint-template");
-    if (endpoint) {
-      form.setAttribute(
-        "action",
-        endpoint.replace("YOUR_FORMSPREE_ID", DEGREELELO_CONFIG.formspreeFormId)
-      );
-    }
-  }
 
   function getFocusable() {
     return dialog.querySelectorAll(
@@ -150,55 +137,60 @@ var DEGREELELO_CONFIG = {
     if (e.target === overlay) closeModal();
   });
 
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var submitBtn = form.querySelector('button[type="submit"]');
-      var formData = new FormData(form);
+  // Submits into the hidden iframe (target="hidden_iframe" on the form) so the
+  // page never navigates to Google. Cross-origin, so we can't read the actual
+  // response — success is inferred from the iframe's load event, with a
+  // timeout fallback in case the request never completes (e.g. offline).
+  if (form && hiddenIframe) {
+    var submissionPending = false;
+    var submissionTimeout = null;
+    var activeSubmitBtn = null;
+
+    function finishSubmission(succeeded) {
+      if (!submissionPending) return;
+      submissionPending = false;
+      clearTimeout(submissionTimeout);
+
+      if (activeSubmitBtn) {
+        activeSubmitBtn.disabled = false;
+        activeSubmitBtn.textContent = "Submit Enquiry";
+      }
+
+      if (succeeded) {
+        form.hidden = true;
+        if (successBox) successBox.hidden = false;
+        form.reset();
+      } else if (statusBox) {
+        statusBox.hidden = false;
+        statusBox.classList.add("is-error");
+        statusBox.textContent =
+          "That's taking longer than expected. Please try again, or message us on WhatsApp.";
+      }
+    }
+
+    hiddenIframe.addEventListener("load", function () {
+      finishSubmission(true);
+    });
+
+    form.addEventListener("submit", function () {
+      // No preventDefault: the native submission into the hidden iframe is
+      // what actually sends the data to Google.
+      activeSubmitBtn = form.querySelector('button[type="submit"]');
+      submissionPending = true;
 
       if (statusBox) {
         statusBox.hidden = true;
         statusBox.classList.remove("is-error");
       }
-      if (submitBtn) {
-        submitBtn.disabled = true;
-        submitBtn.textContent = "Sending…";
+      if (activeSubmitBtn) {
+        activeSubmitBtn.disabled = true;
+        activeSubmitBtn.textContent = "Sending…";
       }
 
-      fetch(form.action, {
-        method: "POST",
-        body: formData,
-        headers: { Accept: "application/json" }
-      })
-        .then(function (response) {
-          if (response.ok) {
-            form.hidden = true;
-            if (successBox) successBox.hidden = false;
-            form.reset();
-          } else {
-            return response.json().then(function (data) {
-              throw new Error(
-                data && data.errors
-                  ? data.errors.map(function (er) { return er.message; }).join(", ")
-                  : "Something went wrong. Please try again or WhatsApp us."
-              );
-            });
-          }
-        })
-        .catch(function (err) {
-          if (statusBox) {
-            statusBox.hidden = false;
-            statusBox.classList.add("is-error");
-            statusBox.textContent =
-              err.message || "Something went wrong. Please try again or WhatsApp us.";
-          }
-        })
-        .finally(function () {
-          if (submitBtn) {
-            submitBtn.disabled = false;
-            submitBtn.textContent = "Submit Enquiry";
-          }
-        });
+      clearTimeout(submissionTimeout);
+      submissionTimeout = setTimeout(function () {
+        finishSubmission(false);
+      }, 8000);
     });
   }
 
