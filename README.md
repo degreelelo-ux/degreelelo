@@ -6,9 +6,11 @@ Plain HTML/CSS/JS, no build step, no framework. Deployable as-is on GitHub Pages
 
 ## How the enquiry form works
 
-The enquiry popup (present on every page) is a custom-styled modal that submits into a Google Form in the background, via a hidden iframe (`target="hidden_iframe"` on the `<form>`) — the page never navigates to Google, and the modal's own "Thank you" state is what the visitor sees. Submissions land in the Google Form's linked Sheet.
+The enquiry popup (present on every page) is a custom-styled modal that submits to a Google Apps Script Web App bound directly to a Google Sheet, which appends each submission as a new row. Submission is a plain `fetch()` POST (`js/main.js`), and the modal's "Thank you" state only shows once the script's response confirms `{ result: "success" }` — a genuine success signal, not a guess.
 
-Each field's `name` attribute is the target Google Form question's `entry.XXXXXXX` ID:
+(An earlier version of this submitted directly to a Google Form via a hidden iframe. That was abandoned after live testing hit a hard `400` from Google's `/formResponse` endpoint — Google increasingly requires a `fbzx` anti-abuse session token that's only generated when a browser actually loads the real `/viewform` page, which a static POST built ahead of time can't supply. The Apps Script Web App has no such requirement.)
+
+Each field's `name` attribute is still the original Google Form's `entry.XXXXXXX` ID — kept as-is because the Apps Script (below) reads submissions by those same keys, so no HTML changes were needed when switching from the Form to the Script:
 
 | Modal field | Entry ID |
 |---|---|
@@ -20,14 +22,28 @@ Each field's `name` attribute is the target Google Form question's `entry.XXXXXX
 | Score / percentile | `entry.1558959334` |
 | How did you hear about us | `entry.1372671113` |
 
-The submission endpoint (`js/main.js`-adjacent, in the `<form action>` in every page's modal markup) is `https://docs.google.com/forms/d/e/1FAIpQLSelDjmk3jOax0goum4VtmfoOLKHkvRg6YCxsT3EpRQMIWjfOA/formResponse`.
+The submission endpoint (in the `<form action>` in every page's modal markup) is the deployed Apps Script Web App URL, currently:
+`https://script.google.com/macros/s/AKfycbw0VbFqKKRZM7UBFx3DDR-11UU6cioS4jWPLb7XWKcc7O0TZ_B11D2T6no9HRSJFIPQWw/exec`
 
-**Caveats worth knowing (the important one is the second bullet — tested, not theoretical):**
-- This is the standard "hidden iframe POST to `/formResponse`" technique for submitting to a Google Form without the visible Google UI. It isn't an officially documented API — it works today and is widely used, but isn't guaranteed never to change.
-- **The iframe's `load` event fires on essentially any outcome — success, a Google-side validation rejection, or even a failed network request** — because a failed navigation still renders *something* (an error page), and that still counts as "loaded." This was confirmed directly: in an environment where the request couldn't reach Google at all, the modal still showed "Thank you." Practically, this means the 8-second timeout fallback (which shows an error/WhatsApp prompt) only catches a request that never resolves *at all* — it cannot tell a saved submission apart from a rejected or failed one. There is no reliable client-side way to detect a Google-side rejection with this technique.
-- **This makes it essential to double-check the Google Form's own required-field settings match this modal**: Name, Phone, Email, City, and Course of Interest are required here; Score/Percentile and "How did you hear about us" are optional. If the Form marks something required that this modal doesn't collect as required, Google will reject the submission server-side and the visitor will still see "Thank you," with no way for the site (or the visitor) to know the lead was lost.
-- If "Course of Interest" or "How did you hear about us" are dropdown/multiple-choice questions in the Form (not short answer), their defined choices must exactly match the option text this modal sends: `Engineering` / `Management` / `Medical` / `Study Abroad`, and `Instagram` / `WhatsApp` / `Google Search` / `Friend / Family Referral` / `School / College` / `Other`, respectively.
-- **Recommended before trusting this live**: submit the popup form yourself once the site is live and confirm the row actually appears in the linked Sheet — don't rely on the on-screen "Thank you" as proof it worked.
+The script itself lives in the target Google Sheet's **Extensions → Apps Script** editor (not in this repo, since Apps Script projects aren't files Git can track) — roughly:
+
+```javascript
+function doPost(e) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var p = e.parameter;
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(['Timestamp', 'Name', 'Phone', 'Email', 'City', 'Course of Interest', 'Score / Percentile', 'How did you hear about us']);
+  }
+  sheet.appendRow([new Date(), p['entry.207722185'], p['entry.804843000'], p['entry.15042384'], p['entry.287878406'], p['entry.922132532'], p['entry.1558959334'], p['entry.1372671113']]);
+  return ContentService.createTextOutput(JSON.stringify({ result: 'success' })).setMimeType(ContentService.MimeType.JSON);
+}
+```
+
+**Worth knowing:**
+- The request is sent as `FormData` (not JSON) deliberately — that keeps it a CORS "simple request" that skips a preflight `OPTIONS` call, which Apps Script Web Apps don't handle.
+- Redeploying the Apps Script (Deploy → Manage deployments → edit → new version) is required after any script code change for the live `/exec` URL to pick it up — saving alone isn't enough.
+- If the endpoint URL, the script's deployment, or its "Who has access" setting ever changes, update the `<form action>` value across all pages (it's identical on every page, so a single find-and-replace works) — currently only editable directly, no shared JS config constant for it.
+- **Confirmed working end-to-end**: request shape verified (correct field mapping, correct content type), and — unlike the earlier Form-based attempt — a genuine network failure was verified to correctly show the error/WhatsApp message instead of silently claiming success.
 
 ## Before going live
 
@@ -51,7 +67,7 @@ terms.html                  Terms & Disclaimer
 404.html                    Custom 404 page
 
 css/style.css              Design system + all site styles
-js/main.js                  Mobile nav, enquiry modal (Google Form submit), predictor logic
+js/main.js                  Mobile nav, enquiry modal (Apps Script submit), predictor logic
 assets/                     Favicon, apple-touch-icon, OG/Twitter card image
 robots.txt, sitemap.xml    SEO basics
 ```
