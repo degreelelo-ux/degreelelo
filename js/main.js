@@ -59,7 +59,6 @@ var DEGREELELO_CONFIG = {
   var closeBtn = modal.querySelector("[data-modal-close]");
   var statusBox = modal.querySelector("[data-form-status]");
   var successBox = modal.querySelector("[data-form-success]");
-  var hiddenIframe = modal.querySelector('iframe[name="hidden_iframe"]');
   var lastFocused = null;
 
   function getFocusable() {
@@ -137,60 +136,53 @@ var DEGREELELO_CONFIG = {
     if (e.target === overlay) closeModal();
   });
 
-  // Submits into the hidden iframe (target="hidden_iframe" on the form) so the
-  // page never navigates to Google. Cross-origin, so we can't read the actual
-  // response — success is inferred from the iframe's load event, with a
-  // timeout fallback in case the request never completes (e.g. offline).
-  if (form && hiddenIframe) {
-    var submissionPending = false;
-    var submissionTimeout = null;
-    var activeSubmitBtn = null;
-
-    function finishSubmission(succeeded) {
-      if (!submissionPending) return;
-      submissionPending = false;
-      clearTimeout(submissionTimeout);
-
-      if (activeSubmitBtn) {
-        activeSubmitBtn.disabled = false;
-        activeSubmitBtn.textContent = "Submit Enquiry";
-      }
-
-      if (succeeded) {
-        form.hidden = true;
-        if (successBox) successBox.hidden = false;
-        form.reset();
-      } else if (statusBox) {
-        statusBox.hidden = false;
-        statusBox.classList.add("is-error");
-        statusBox.textContent =
-          "That's taking longer than expected. Please try again, or message us on WhatsApp.";
-      }
-    }
-
-    hiddenIframe.addEventListener("load", function () {
-      finishSubmission(true);
-    });
-
-    form.addEventListener("submit", function () {
-      // No preventDefault: the native submission into the hidden iframe is
-      // what actually sends the data to Google.
-      activeSubmitBtn = form.querySelector('button[type="submit"]');
-      submissionPending = true;
+  // Submits to a Google Apps Script Web App bound to the leads Sheet. Sent as
+  // FormData (not JSON) so the request stays a CORS "simple request" — Apps
+  // Script doesn't handle a preflight OPTIONS request. Unlike the Google Form
+  // endpoint, this one has no anti-abuse session token, so a real
+  // success/failure response can be read back.
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var submitBtn = form.querySelector('button[type="submit"]');
+      var formData = new FormData(form);
 
       if (statusBox) {
         statusBox.hidden = true;
         statusBox.classList.remove("is-error");
       }
-      if (activeSubmitBtn) {
-        activeSubmitBtn.disabled = true;
-        activeSubmitBtn.textContent = "Sending…";
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending…";
       }
 
-      clearTimeout(submissionTimeout);
-      submissionTimeout = setTimeout(function () {
-        finishSubmission(false);
-      }, 8000);
+      fetch(form.action, { method: "POST", body: formData })
+        .then(function (response) {
+          if (!response.ok) throw new Error("Request failed");
+          return response.json();
+        })
+        .then(function (data) {
+          if (!data || data.result !== "success") {
+            throw new Error("Unexpected response");
+          }
+          form.hidden = true;
+          if (successBox) successBox.hidden = false;
+          form.reset();
+        })
+        .catch(function () {
+          if (statusBox) {
+            statusBox.hidden = false;
+            statusBox.classList.add("is-error");
+            statusBox.textContent =
+              "Something went wrong. Please try again, or message us on WhatsApp.";
+          }
+        })
+        .finally(function () {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Submit Enquiry";
+          }
+        });
     });
   }
 
