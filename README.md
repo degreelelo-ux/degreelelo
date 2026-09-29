@@ -45,6 +45,20 @@ function doPost(e) {
 - If the endpoint URL, the script's deployment, or its "Who has access" setting ever changes, update the `<form action>` value across all pages (it's identical on every page, so a single find-and-replace works) — currently only editable directly, no shared JS config constant for it.
 - **Confirmed working end-to-end**: request shape verified (correct field mapping, correct content type), and — unlike the earlier Form-based attempt — a genuine network failure was verified to correctly show the error/WhatsApp message instead of silently claiming success.
 
+## College Directory
+
+`colleges.html` is a filterable directory (state, category, search) over `data/colleges.json` — 343 institutions across Engineering, Management, Medical, Law, and Design, rendered client-side by `js/main.js` (fetch + filter, no framework). It also accepts `?category=` and `?state=` query params, used by links from the Engineering/Management/Medical pages and the College Predictor's result box to deep-link into a pre-filtered view.
+
+**Where the data came from and how it was cleaned:** `data/colleges.json` is a one-time, point-in-time export from an internal spreadsheet (`Master_Database_8.xlsx`, `INSTITUTIONS` sheet, 468 rows) with real, deliberate filtering — not a raw dump:
+
+- **125 "Study Abroad" rows were excluded entirely.** They're explicitly flagged `"Active for 2027": "No"` in the source data, and their own notes say Study Abroad's course/route/fee detail was "intentionally not built yet, pending confirmation that Study Abroad is an active launch vertical." The Study Abroad page stays as its existing "coming soon" placeholder — this export doesn't contradict that.
+- **The `FEES_COMMISSION` sheet (internal commission %, profit margins, payment splits) was never touched.** Nothing from it is in `colleges.json` or anywhere on the site. Same for `LEAD_DATABASE` and partner reps' personal contact numbers from the `PARTNERS` sheet.
+- Of the 343 remaining institutions, only **93 are marked `verified: true`** in the JSON (independently confirmed — mostly well-known engineering institutes with real NIRF rankings/placement data). The other 250 are `verified: false` ("Partner-provided (unverified)" in the source) and get a "Partner network" badge in the UI instead of "Verified" — per an explicit instruction to include partner-sourced data but keep it clearly caveated.
+- Any spreadsheet cell reading literally "Needs Verification" (or a longer sentence starting with it, e.g. "Needs Verification - no reliable figure found") was dropped rather than shown — a field with no real value is simply absent from that college's card, never replaced with a placeholder.
+- Fee ranges, entrance exams, and approved programmes were parsed out of each row's free-text "Important Notes" field via regex (the structured fee/exam columns in the source were themselves mostly unfilled) — see the extraction script's `parse_notes()` if this needs re-running.
+
+**This export does not auto-update.** If the source spreadsheet changes, `data/colleges.json` needs to be regenerated and re-committed by hand — there's no live sync. The extraction script itself isn't part of this repo (consistent with `build.py` for the HTML pages, kept locally during development, not deployed).
+
 ## Before going live
 
 **WhatsApp Business number** — the "Chat with us on WhatsApp" button is already wired to the real number. If it ever needs to change, it's declared once, at the top of `js/main.js` (`DEGREELELO_CONFIG.whatsappNumber`).
@@ -59,6 +73,7 @@ management.html           Management admissions (CAT / CMAT / MAT / MAH-CET)
 medical.html               Medical / NEET counselling guidance
 study-abroad.html         Study Abroad (launching soon)
 college-predictor.html    Free college predictor tool
+colleges.html              College Directory (filterable, 343 institutions)
 blog.html                  Blog (placeholder)
 faq.html                    FAQ
 contact.html               Contact
@@ -67,7 +82,8 @@ terms.html                  Terms & Disclaimer
 404.html                    Custom 404 page
 
 css/style.css              Design system + all site styles
-js/main.js                  Mobile nav, enquiry modal (Apps Script submit), predictor logic
+js/main.js                  Mobile nav, enquiry modal (Apps Script submit), predictor logic, directory filter
+data/colleges.json         College Directory data (see "College Directory" section below)
 assets/                     Favicon, apple-touch-icon, OG/Twitter card image
 robots.txt, sitemap.xml    SEO basics
 ```

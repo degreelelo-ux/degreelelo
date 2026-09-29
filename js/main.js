@@ -218,7 +218,12 @@ var DEGREELELO_CONFIG = {
         positive = false;
         heading = "Let's get this reviewed personally";
         message =
-          "We don't yet have verified admission-route data for this combination. Rather than guess, our counsellors will personally review your profile and get back to you with accurate guidance.";
+          "We don't yet have a verified admission-route match for this exact combination. Our partner network does cover Engineering, Management, Medical, Law and Design colleges across several states, though — browse the College Directory below for a sense of what's out there, and a counsellor will confirm what's realistic for your profile rather than us guessing.";
+      }
+
+      var directoryUrl = "colleges.html?category=" + encodeURIComponent(course);
+      if (state && state !== "Other") {
+        directoryUrl += "&state=" + encodeURIComponent(state);
       }
 
       resultBox.hidden = false;
@@ -233,7 +238,9 @@ var DEGREELELO_CONFIG = {
         course +
         '" data-prefill-score="' +
         (score || "") +
-        '">Enquire Now</button></div>';
+        '">Enquire Now</button><a href="' +
+        directoryUrl +
+        '" class="btn btn-outline">Browse Colleges</a></div>';
 
       // wire the newly injected trigger
       var newTrigger = resultBox.querySelector("[data-modal-trigger]");
@@ -247,6 +254,115 @@ var DEGREELELO_CONFIG = {
       resultBox.setAttribute("tabindex", "-1");
       resultBox.focus();
     });
+  }
+
+  /* ---------------- College Directory ---------------- */
+  var directoryList = document.getElementById("directory-list");
+  if (directoryList) {
+    var dirSearch = document.getElementById("dir-search");
+    var dirState = document.getElementById("dir-state");
+    var dirCategory = document.getElementById("dir-category");
+    var dirCount = document.getElementById("directory-count");
+    var dirEmpty = document.getElementById("directory-empty");
+    var allColleges = [];
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function renderColleges() {
+      var q = (dirSearch.value || "").trim().toLowerCase();
+      var stateFilter = dirState.value;
+      var categoryFilter = dirCategory.value;
+
+      var filtered = allColleges.filter(function (c) {
+        if (stateFilter && c.state !== stateFilter) return false;
+        if (categoryFilter && c.category !== categoryFilter) return false;
+        if (q) {
+          var haystack = ((c.name || "") + " " + (c.city || "") + " " + (c.state || "")).toLowerCase();
+          if (haystack.indexOf(q) === -1) return false;
+        }
+        return true;
+      });
+
+      dirCount.innerHTML =
+        "Showing <strong>" + filtered.length + "</strong> of " + allColleges.length + " colleges";
+
+      if (!filtered.length) {
+        directoryList.innerHTML = "";
+        dirEmpty.hidden = false;
+        return;
+      }
+      dirEmpty.hidden = true;
+
+      directoryList.innerHTML = filtered
+        .map(function (c) {
+          var metaParts = [];
+          if (c.city) metaParts.push(c.city);
+          if (c.state) metaParts.push(c.state);
+          var meta = metaParts.join(", ") + (c.type ? " · " + escapeHtml(c.type) : "");
+
+          var facts = [];
+          if (c.fee) facts.push("<span>" + escapeHtml(c.fee) + "</span>");
+          if (c.entrance_exam) facts.push("<span>" + escapeHtml(c.entrance_exam) + "</span>");
+          if (!c.fee && !c.entrance_exam && c.avg_placement) {
+            facts.push("<span>Avg. placement: " + escapeHtml(c.avg_placement) + "</span>");
+          }
+
+          var badgeClass = c.verified ? "is-verified" : "is-partner";
+          var badgeText = c.verified ? "Verified" : "Partner network";
+
+          return (
+            '<article class="directory-row">' +
+            '<div class="directory-row-main"><h3>' +
+            escapeHtml(c.name) +
+            '</h3><p class="directory-row-meta">' +
+            escapeHtml(meta) +
+            "</p></div>" +
+            '<div class="directory-row-facts">' +
+            facts.join("") +
+            "</div>" +
+            '<span class="directory-badge ' +
+            badgeClass +
+            '">' +
+            badgeText +
+            "</span>" +
+            "</article>"
+          );
+        })
+        .join("");
+    }
+
+    fetch("data/colleges.json")
+      .then(function (r) {
+        return r.json();
+      })
+      .then(function (data) {
+        allColleges = data;
+
+        var params = new URLSearchParams(window.location.search);
+        var initialCategory = params.get("category");
+        var initialState = params.get("state");
+        if (initialCategory && Array.prototype.some.call(dirCategory.options, function (o) { return o.value === initialCategory; })) {
+          dirCategory.value = initialCategory;
+        }
+        if (initialState && Array.prototype.some.call(dirState.options, function (o) { return o.value === initialState; })) {
+          dirState.value = initialState;
+        }
+
+        renderColleges();
+      })
+      .catch(function () {
+        dirCount.textContent = "Couldn't load the college list. Please refresh the page.";
+      });
+
+    dirSearch.addEventListener("input", renderColleges);
+    dirState.addEventListener("change", renderColleges);
+    dirCategory.addEventListener("change", renderColleges);
   }
 
   /* ---------------- Footer year ---------------- */

@@ -829,3 +829,91 @@ legend { padding: 0; font-weight: 600; }
   background: var(--color-surface);
 }
 .empty-state svg { width: 48px; height: 48px; color: var(--color-border-strong); margin: 0 auto var(--space-4); }
+
+/* ---------- College Directory ---------- */
+.directory-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin-top: var(--space-3);
+}
+.directory-legend li { display: flex; align-items: center; gap: 8px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.legend-dot.is-verified { background: var(--color-secondary); }
+.legend-dot.is-partner { background: var(--color-accent); }
+
+.directory-controls {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: 1fr;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  margin-bottom: var(--space-5);
+}
+@media (min-width: 700px) {
+  .directory-controls { grid-template-columns: 1.4fr 1fr 1fr; align-items: end; }
+}
+.directory-controls .field { margin-bottom: 0; }
+
+.directory-count {
+  font-size: var(--text-sm);
+  color: var(--color-text-soft);
+  margin-bottom: var(--space-4);
+}
+.directory-count strong { color: var(--color-text); }
+
+.directory-list { display: flex; flex-direction: column; }
+.directory-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-5);
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.directory-row-main { flex: 1 1 260px; min-width: 0; }
+.directory-row-main h3 {
+  font-size: var(--text-base);
+  margin-bottom: 2px;
+  color: var(--color-text);
+}
+.directory-row-meta {
+  font-size: var(--text-xs);
+  color: var(--color-text-soft);
+}
+.directory-row-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  flex: 1 1 220px;
+}
+.directory-row-facts span:not(:last-child)::after { content: "·"; margin-left: var(--space-4); color: var(--color-border-strong); }
+
+.directory-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.directory-badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; }
+.directory-badge.is-verified {
+  background: var(--color-secondary-tint);
+  color: var(--color-secondary-dark);
+}
+.directory-badge.is-verified::before { background: var(--color-secondary); }
+.directory-badge.is-partner {
+  background: var(--color-accent-tint);
+  color: var(--color-accent-dark);
+}
+.directory-badge.is-partner::before { background: var(--color-accent); }
