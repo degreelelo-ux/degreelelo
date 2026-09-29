@@ -47,7 +47,9 @@ function doPost(e) {
 
 ## College Directory
 
-`colleges.html` is a filterable directory (state, category, search) over `data/colleges.json` — 343 institutions across Engineering, Management, Medical, Law, and Design, rendered client-side by `js/main.js` (fetch + filter, no framework). It also accepts `?category=` and `?state=` query params, used by links from the Engineering/Management/Medical pages and the College Predictor's result box to deep-link into a pre-filtered view.
+`colleges.html` is a filterable directory (state, category, course, search) over `data/colleges.json` — 343 institutions across Engineering, Management, Medical, Law, and Design, rendered client-side by `js/main.js` (fetch + filter, no framework). It also accepts `?category=`, `?state=`, and `?course=` query params, used by links from the Engineering/Management/Medical pages and the College Predictor's result box to deep-link into a pre-filtered view.
+
+**The Course filter** is a finer level than Category (e.g. picking "MBBS" or "BDS" within Medical, or "B.Arch" within Design) — deliberately built with no guessing involved. Each institution's `courses` array is populated only from two explicit sources: its row's own fine-grained `Primary Course` value in the spreadsheet (this is only ever `B.Tech`/`MBA`/`MBBS` — a real distinct field, not an inference), or real degree tokens (from a fixed vocabulary — `LLB`, `B.Arch`, `B.Pharm`, `MBBS`, `BDS`, etc.) found by parsing that institution's own "Approvals/programmes" text (e.g. "MBBS, BDS, MD" → three separate course tags). An accreditation-only string like "UGC/AICTE" matches no vocabulary token and correctly produces no course tag. **305 of 343 institutions have at least one course tag; the other 38 simply don't appear when a specific course is selected** (only under "All courses") — nothing is guessed to fill that gap.
 
 **Where the data came from and how it was cleaned:** `data/colleges.json` is a one-time, point-in-time export from an internal spreadsheet (`Master_Database_8.xlsx`, `INSTITUTIONS` sheet, 468 rows) with real, deliberate filtering — not a raw dump:
 
