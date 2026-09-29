@@ -831,19 +831,6 @@ legend { padding: 0; font-weight: 600; }
 .empty-state svg { width: 48px; height: 48px; color: var(--color-border-strong); margin: 0 auto var(--space-4); }
 
 /* ---------- College Directory ---------- */
-.directory-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-5);
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-  margin-top: var(--space-3);
-}
-.directory-legend li { display: flex; align-items: center; gap: 8px; }
-.legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-.legend-dot.is-verified { background: var(--color-secondary); }
-.legend-dot.is-partner { background: var(--color-accent); }
-
 .directory-controls {
   display: grid;
   gap: var(--space-3);
@@ -894,26 +881,3 @@ legend { padding: 0; font-weight: 600; }
   flex: 1 1 220px;
 }
 .directory-row-facts span:not(:last-child)::after { content: "·"; margin-left: var(--space-4); color: var(--color-border-strong); }
-
-.directory-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: var(--text-xs);
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 999px;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.directory-badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; }
-.directory-badge.is-verified {
-  background: var(--color-secondary-tint);
-  color: var(--color-secondary-dark);
-}
-.directory-badge.is-verified::before { background: var(--color-secondary); }
-.directory-badge.is-partner {
-  background: var(--color-accent-tint);
-  color: var(--color-accent-dark);
-}
-.directory-badge.is-partner::before { background: var(--color-accent); }
