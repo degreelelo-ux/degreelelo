@@ -313,9 +313,6 @@ var DEGREELELO_CONFIG = {
             facts.push("<span>Avg. placement: " + escapeHtml(c.avg_placement) + "</span>");
           }
 
-          var badgeClass = c.verified ? "is-verified" : "is-partner";
-          var badgeText = c.verified ? "Verified" : "Partner network";
-
           return (
             '<article class="directory-row">' +
             '<div class="directory-row-main"><h3>' +
@@ -326,11 +323,6 @@ var DEGREELELO_CONFIG = {
             '<div class="directory-row-facts">' +
             facts.join("") +
             "</div>" +
-            '<span class="directory-badge ' +
-            badgeClass +
-            '">' +
-            badgeText +
-            "</span>" +
             "</article>"
           );
         })
