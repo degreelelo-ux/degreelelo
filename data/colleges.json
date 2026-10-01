@@ -10,6 +10,9 @@
   "website": "iitb.ac.in",
   "ranking": "NIRF 2025: #3 Engineering, #3 Overall (Source: NIRF 2025)",
   "avg_placement": "~₹23.5 LPA (institute-reported overall average, 2024 season)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -23,6 +26,9 @@
   "website": "iitd.ac.in",
   "ranking": "NIRF 2025: #2 Engineering, #4 Overall (Source: NIRF 2025)",
   "avg_placement": "~₹25.9 LPA (2024-25 season)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -36,6 +42,9 @@
   "website": "nitt.edu",
   "ranking": "NIRF 2025: #9 Engineering, #30 Overall - ranked #1 among all NITs (Source: NIRF 2025)",
   "avg_placement": "~₹14.8-19.8 LPA depending on branch (2025 season, Careers360)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -49,6 +58,9 @@
   "website": "bits-pilani.ac.in",
   "ranking": "NIRF 2025: #7 University, #10-11 Engineering, #2 Pharmacy (Source: NIRF 2025)",
   "avg_placement": "~₹19.7-30 LPA (institute vs media figures differ; institute-reported median ₹16.15 LPA, 2024)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -62,6 +74,9 @@
   "website": "vit.ac.in",
   "ranking": "NIRF 2025: #14 University, #14-16 Engineering, #21 Overall (Source: NIRF 2025)",
   "avg_placement": "~₹9-10 LPA (2025 season; figures vary slightly by source)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -75,6 +90,9 @@
   "website": "manipal.edu",
   "ranking": "NIRF 2025: #59 Engineering (Source: NIRF 2025)",
   "avg_placement": "~₹11.76-12.31 LPA (2025 season)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -88,6 +106,9 @@
   "website": "srmist.edu.in",
   "ranking": "NIRF 2025: #11 University, #14 Engineering (Source: NIRF 2025)",
   "avg_placement": "~₹6.5-9 LPA (CSE/IT typically higher; overall figures vary by source)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -101,6 +122,9 @@
   "website": "rvce.edu.in",
   "ranking": "NIRF 2025: Engineering band #101-150 (Source: NIRF 2025)",
   "avg_placement": "~₹15-24.5 LPA (figures vary by source/year)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -114,6 +138,9 @@
   "website": "pes.edu",
   "ranking": "NIRF 2025: Engineering band #101-150 (Source: NIRF 2025)",
   "avg_placement": "Median ~₹12.47-12.50 LPA (UG 4-yr, NIRF 2025 report)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -127,6 +154,9 @@
   "website": "coeptech.ac.in",
   "ranking": "NIRF 2025: #90 Engineering, #3 State Public University category (Source: NIRF 2025; some aggregator sites cite differing ranks - reconfirm on coeptech.ac.in)",
   "avg_placement": "~₹11.35-12.55 LPA (figures vary by source/year)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -138,6 +168,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #7 University, #10-11 Engineering (combined ranking across Pilani/Goa/Hyderabad campuses - BITS does not rank campuses separately)",
   "avg_placement": "~₹19.7-26 LPA (combined group figures vary by source/campus)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -148,6 +181,9 @@
   "city": "Chennai",
   "category": "Engineering",
   "ranking": "NIRF 2025: #14 University (combined VIT group ranking; VIT does not rank campuses separately)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -159,6 +195,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024: Engineering band top-30; NIRF category ranking for VIT Bhopal specifically not separately published in 2025 (part of VIT group)",
   "avg_placement": "~₹8.5-24 LPA (wide variance across sources - reconfirm on vitbhopal.ac.in placement report)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -170,6 +209,9 @@
   "category": "Engineering",
   "ranking": "Part of VIT group NIRF ranking; campus-specific NIRF rank not separately published",
   "avg_placement": "~₹9.9 LPA (2024 season)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -181,6 +223,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #17 University, #27 Overall, #36 Engineering (Source: NIRF 2025)",
   "avg_placement": "Median ~₹7.5-9.7 LPA depending on program level (NIRF 2025); average commonly cited ~₹6.5-8.5 LPA",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -192,6 +237,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: ~#15-17 University category (Siksha O Anusandhan group; ITER is the engineering constituent)",
   "avg_placement": "~₹5 LPA (widely cited estimate; needs official confirmation)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -203,6 +251,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #7-8 University category, #17 Overall, #23 Engineering (Source: NIRF 2025; ranking cited inconsistently across mirrors - reconfirm on amrita.edu)",
   "avg_placement": "~₹8.33 LPA, median ~₹7.6 LPA (2024 season)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -214,6 +265,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #29 Engineering, #43 Overall, #44 Management (Source: NIRF 2025)",
   "avg_placement": "~₹11.25-11.38 LPA, median ~₹10 LPA (2024-25 season)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -225,6 +279,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #101-150 (Source: NIRF 2025)",
   "avg_placement": "~₹11.66 LPA (2024-25); median ~₹6.25-7.6 LPA cited by some aggregators - reconfirm on jiit.ac.in",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -236,6 +293,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024: Top-30 National University category (Source: aggregator-cited; reconfirm exact 2025 rank on snu.edu.in)",
   "avg_placement": "~₹11.35 LPA, median ~₹9.97 LPA (recent cycle, per Careers360)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -247,6 +307,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #31 Overall, #48 Engineering, #44 Management, #13 Pharmacy (Source: NIRF 2025)",
   "avg_placement": "Median ~₹5-9 LPA (varies by branch/source)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -257,6 +320,9 @@
   "city": "Mohali",
   "category": "Engineering",
   "ranking": "NIRF 2025: #31 Engineering, #32 Overall (Source: NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -268,6 +334,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2023: Overall university band #101-150 (2025 rank not separately confirmed - reconfirm on srmap.edu.in)",
   "avg_placement": "~₹8.5-13.4 LPA (figures vary significantly by year/source)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -278,6 +347,9 @@
   "city": "Greater Noida",
   "category": "Engineering",
   "ranking": "Not in NIRF top-tier rankings as of 2025 (private aggregators cite India Today Engineering ~#82, 2023); NAAC accreditation status disputed across sources - reconfirm on bennett.edu.in",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -289,6 +361,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #101-150 (some sources cite #116), Pharmacy #70-72 (Source: NIRF 2025)",
   "avg_placement": "~₹6.2-16.3 LPA (wide variance by source/year - reconfirm)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -299,6 +374,9 @@
   "city": "Pune",
   "category": "Engineering",
   "ranking": "NIRF 2024: Overall band top-150; Innovation band #11-50 (2023) (Source: NIRF, institute site vit.edu/nirf)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -309,6 +387,9 @@
   "city": "Mumbai",
   "category": "Engineering",
   "ranking": "NIRF 2024: Engineering band #201-300 (Source: NIRF, institute site spit.ac.in/nirf)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -319,6 +400,9 @@
   "city": "Mumbai",
   "category": "Engineering",
   "ranking": "NIRF: Innovation category band #51-100 (2023); Engineering ranking band not clearly published - reconfirm on kjsit.somaiya.edu.in/nirf",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -328,6 +412,9 @@
   "state": "Maharashtra",
   "city": "Mumbai",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -338,6 +425,9 @@
   "city": "Nagpur",
   "category": "Engineering",
   "ranking": "NIRF 2024: #163 Engineering, #16 Innovation (Source: NIRF 2024, Wikipedia/institute-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -348,6 +438,9 @@
   "city": "Nagpur",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #201-300 (Source: NIRF 2025; now known as Ramdeobaba University)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -357,6 +450,9 @@
   "state": "Maharashtra",
   "city": "Pune",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -366,6 +462,9 @@
   "state": "Maharashtra",
   "city": "Sangli",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -376,6 +475,9 @@
   "city": "Bangalore",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #151-200 (Source: NIRF 2025); NAAC A++",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -386,6 +488,9 @@
   "city": "Udupi",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #201-300 (Source: NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -397,6 +502,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #101-150/#151-200 (cited both across sources - reconfirm on sit.ac.in); NAAC A++",
   "avg_placement": "~₹8.75-9.00 LPA (UG, NIRF-cited figures vary slightly by source)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -407,6 +515,9 @@
   "city": "Bangalore",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #151-200 (Source: NIRF-based aggregator list)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -417,6 +528,9 @@
   "city": "Bangalore",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #151-200 (Source: NIRF-based aggregator list)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -427,6 +541,9 @@
   "city": "Hubli",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #151-200 (Source: NIRF-based aggregator list); located in Hubli/Dharwad",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -437,6 +554,9 @@
   "city": "Mysuru",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #201-300 (Source: NIRF-based aggregator list)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -448,6 +568,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #67 Engineering, #84 Management, #101-150 Overall (Source: NIRF 2025)",
   "avg_placement": "~₹4.9-12.2 LPA (varies by branch); median ~₹7 LPA (NIRF 2025, UG 4-yr)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -458,6 +581,9 @@
   "city": "Madurai",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #101-150 (Source: NIRF 2025, institute PDF); NAAC A++",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -469,6 +595,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #151-200 (Source: NIRF 2025; was #101-150 in 2024)",
   "avg_placement": "Median ~₹4.16 LPA (MBA program, aggregator-cited); B.Tech figure not found - reconfirm",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -479,6 +608,9 @@
   "city": "Chennai",
   "category": "Engineering",
   "avg_placement": "~₹4.5-5 LPA (student-reported estimate)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -489,6 +621,9 @@
   "city": "Chennai",
   "category": "Engineering",
   "avg_placement": "Median ~₹3.5 LPA (MBA program, aggregator-cited); B.Tech figure not found",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -499,6 +634,9 @@
   "city": "Chennai",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #201-300 (Source: NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -510,6 +648,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering #113-151 band (cited inconsistently across years/sources - reconfirm on hindustanuniv.ac.in/nirf), #101-125 Management, #151-200 Overall",
   "avg_placement": "Median ~₹4.5-5.2 LPA depending on program (NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -520,6 +661,9 @@
   "city": "Coimbatore",
   "category": "Engineering",
   "avg_placement": "Median ~₹7.80 LPA (UG, 2024-25); up from ₹4.6 LPA in 2023-24",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -530,6 +674,9 @@
   "city": "Pollachi",
   "category": "Engineering",
   "avg_placement": "Median ~₹4-5 LPA (UG/PG, NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -541,6 +688,9 @@
   "category": "Engineering",
   "ranking": "NIRF: Engineering band #251-300 (2021 cycle; institute continues to participate in later cycles per aggregators)",
   "avg_placement": "Median ~₹4.20 LPA (UG, NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -552,6 +702,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #37 Engineering, #49 Overall, #22 University, #49 Management (Source: NIRF 2025)",
   "avg_placement": "Median ~₹4-6 LPA (varies by program/year); institute-cited average ₹9.6 LPA (2025, B.Tech, per aggregator - reconfirm)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -562,6 +715,9 @@
   "city": "Greater Noida",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #101-150, #151-200 Overall, #36 Law, #50 Pharmacy (Source: NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -572,6 +728,9 @@
   "city": "Greater Noida",
   "category": "Engineering",
   "ranking": "NIRF 2025: #87 University category (Source: NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -583,6 +742,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #151-200 (Source: NIRF 2025, institute-confirmed)",
   "avg_placement": "Median ~₹4.50 LPA (UG, NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -593,6 +755,9 @@
   "city": "Faridabad",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #201-300, #92 University category (2024) (Source: NIRF)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -604,6 +769,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #101-150 (Source: NIRF 2025)",
   "avg_placement": "Median ~₹5.3-13.7 LPA range by program (NIRF 2025); commonly cited overall average ₹6.4-10.14 LPA (varies by source/year)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -615,6 +783,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024: #86 Overall (Source: institute-cited); no consistent Engineering-category band found in this pass - reconfirm on mait.ac.in",
   "avg_placement": "Median ~₹4.5 LPA (cited by aggregator, unverified)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -626,6 +797,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #101-150 band, Colleges category (Source: NIRF 2025)",
   "avg_placement": "Median ~₹6 LPA (2025, NIRF-cited); average ~₹7.1 LPA cited by aggregator",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -637,6 +811,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024/2025: Engineering band #151-200, #151 Management (Source: NIRF, institute site cbit.ac.in/nirf)",
   "avg_placement": "Median ~₹4 LPA (2024)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -648,6 +825,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024: Engineering band #201-300 (Source: NIRF 2024)",
   "avg_placement": "Median ~₹6.92 LPA (B.E., NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -659,6 +839,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #151-200 (Source: NIRF 2025)",
   "avg_placement": "~₹7.17 LPA (2025 season)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -670,6 +853,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024/2025: Engineering band #151-200 (Source: NIRF 2024/2025)",
   "avg_placement": "~₹4.50 LPA (aggregator-cited, 2024)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -681,6 +867,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024/2025: Engineering band #101-150/#151-200 (cited inconsistently across sources - reconfirm on griet.ac.in)",
   "avg_placement": "~₹6.00 LPA (aggregator estimate, 2024 - not NIRF-sourced)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -692,6 +881,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024/2025: Engineering band #151-200 (Source: NIRF, aggregator-cited)",
   "avg_placement": "~₹4.50 LPA (aggregator estimate, 2024 - not NIRF-sourced)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -702,6 +894,9 @@
   "city": "Hyderabad",
   "category": "Engineering",
   "ranking": "NIRF 2024/2025: Engineering band #101-150 (Source: NIRF, aggregator-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -713,6 +908,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024/2025: Engineering band #151-200 (Source: NIRF, aggregator-cited)",
   "avg_placement": "~₹6.25 LPA (aggregator estimate, 2024 - not NIRF-sourced)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -724,6 +922,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024/2025: Engineering band #151-200 (Source: NIRF, aggregator-cited)",
   "avg_placement": "~₹4.50 LPA (aggregator estimate, 2024 - not NIRF-sourced)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -735,6 +936,9 @@
   "category": "Engineering",
   "ranking": "NIRF: Engineering band #251-300 (Source: NIRF, institute site mgit.ac.in/facets)",
   "avg_placement": "Median ~₹4.3-5.02 LPA (varies by year, NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -745,6 +949,9 @@
   "city": "Vijayawada/Guntur",
   "category": "Engineering",
   "ranking": "NIRF 2025: #35 B.Tech, #22-28 University category (rank cited inconsistently across years/sources - reconfirm on kluniversity.in/nirf)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -756,6 +963,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #80 Engineering, #70 University, #101-150 Overall (Source: NIRF 2025)",
   "avg_placement": "Median ~₹6.96 LPA B.Tech, ₹6.2 LPA M.Tech (2024, NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -767,6 +977,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024: #151-200 Overall, #101-150 Engineering, #101-125 Management (Source: NIRF 2024)",
   "avg_placement": "Median ~₹4.8 LPA (B.Tech, 2024)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -778,6 +991,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #201-300 (Source: NIRF 2025)",
   "avg_placement": "Median ~₹4.50 LPA (2025, NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -789,6 +1005,9 @@
   "category": "Engineering",
   "ranking": "NIRF: cited inconsistently across sources (#101-150 in 2023 per one aggregator, #101 Innovation-Overall in 2023 per another) - reconfirm on gecgudlavalleru.ac.in/nirf_reports.php",
   "avg_placement": "Median ~₹3.50-4 LPA (aggregator-cited, based on AICTE disclosure)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -800,6 +1019,9 @@
   "category": "Engineering",
   "ranking": "NIRF: Engineering band #251-300 (2020-2022 cycles, institute-cited); reconfirm current band on srkrec.edu.in",
   "avg_placement": "Median ~₹3.50 LPA UG, ₹3.40 LPA PG (2025, NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -810,6 +1032,9 @@
   "city": "Vizianagaram",
   "category": "Engineering",
   "avg_placement": "Median ~₹5.50 LPA (NIRF 2025); average ~₹4 LPA cited by another aggregator (2024) - figures conflict, reconfirm",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -821,6 +1046,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #201-300 (Source: NIRF 2025)",
   "avg_placement": "~₹3.31-3.5 LPA (varies by source)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -832,6 +1060,9 @@
   "category": "Engineering",
   "ranking": "NIRF: Engineering band #201-250 (2022 cycle; institute site heritageit.edu confirms) - reconfirm exact 2025 band",
   "avg_placement": "Median ~₹4.78 LPA (UG, NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -843,6 +1074,9 @@
   "category": "Engineering",
   "ranking": "NIRF: University category band #101-150 (aggregator-cited); reconfirm on technoindiauniversity.ac.in",
   "avg_placement": "~₹4-6.5 LPA (wide variance across sources)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -854,6 +1088,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024: Engineering band #201-250/#201-300 (cited slightly differently across sources - reconfirm on hithaldia.ac.in)",
   "avg_placement": "Median ~₹4.50 LPA (NIRF 2026 report); average ~₹5-6 LPA (aggregator estimate)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -865,6 +1102,9 @@
   "category": "Engineering",
   "ranking": "Outlook-ICARE 2025: #96 Engineering (Private); specific NIRF band not confirmed in this pass - reconfirm on rcciit.org",
   "avg_placement": "Median ~₹4.5 LPA (UG, NIRF 2023); PG ~₹4.11 LPA (NIRF 2022)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -876,6 +1116,9 @@
   "category": "Engineering",
   "ranking": "Outlook 2024: #136 Engineering; specific NIRF band not confirmed in this pass - reconfirm on nsec.ac.in",
   "avg_placement": "Median ~₹4-4.5 LPA (UG, varies by year, NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -886,6 +1129,9 @@
   "city": "Kolkata",
   "category": "Engineering",
   "avg_placement": "Median ~₹4.5 LPA; average ~₹4.65 LPA (2024, aggregator-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -897,6 +1143,9 @@
   "category": "Engineering",
   "ranking": "Not ranked by NIRF as of 2023 per one source; another source cites #201 - inconsistent, reconfirm on bppimt.ac.in/NIRF",
   "avg_placement": "~₹3.5-4.4 LPA (varies significantly by source/branch)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -906,6 +1155,9 @@
   "state": "West Bengal",
   "city": "Durgapur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -917,6 +1169,9 @@
   "category": "Engineering",
   "ranking": "Times 2020: #98; specific NIRF band not confirmed in this pass - reconfirm on narulainstitute.edu.in",
   "avg_placement": "~₹3.3-4 LPA (aggregator/student-reported estimates)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -928,6 +1183,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #201-300 (Source: NIRF 2025); ranked among top 3% of technology institutions per NIRF criteria",
   "avg_placement": "~₹19.40 LPA (UG, 2024-25)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -939,6 +1197,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2025: #101-150 University, #33 Law, #53 Management (Source: NIRF 2025)",
   "avg_placement": "~₹8.3 LPA (2024 season); median ~₹6.5 LPA UG, ₹10 LPA PG (NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -949,6 +1210,9 @@
   "city": "Gandhinagar",
   "category": "Engineering",
   "ranking": "NIRF 2025: #98 Engineering, #89 Management (Source: NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -960,6 +1224,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024: #150-200 Overall, #201-250 Engineering (Source: NIRF 2024)",
   "avg_placement": "Median ~₹4.2-4.8 LPA (UG, varies by year, NIRF-cited)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -971,6 +1238,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024/2025: #150 Overall band, #34-98 Pharmacy (cited inconsistently by year - reconfirm), #76-100 Engineering band (Source: NIRF)",
   "avg_placement": "~₹2.4-4.2 LPA (wide variance between institute marketing and NIRF-submitted data)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -981,6 +1251,9 @@
   "city": "Vadodara",
   "category": "Engineering",
   "ranking": "NIRF 2025: #41 Pharmacy (up from #47 in 2024); Overall band #151-200 (Source: NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -992,6 +1265,9 @@
   "category": "Engineering",
   "ranking": "NIRF 2024: Adani University (parent institution) ranked among top-30 national universities for Engineering (Source: institute-cited)",
   "avg_placement": "~₹3.6 LPA (aggregator estimate)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -1001,6 +1277,9 @@
   "state": "Gujarat",
   "city": "Ahmedabad",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1011,6 +1290,9 @@
   "city": "Rajkot",
   "category": "Engineering",
   "ranking": "NIRF 2025: Engineering band #201-300 (Source: NIRF 2025)",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": true
  },
  {
@@ -1020,6 +1302,9 @@
   "state": "Kerala",
   "city": "Kollam",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1029,6 +1314,9 @@
   "state": "Kerala",
   "city": "Kochi",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1038,6 +1326,9 @@
   "state": "Kerala",
   "city": "Kothamangalam",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1047,6 +1338,9 @@
   "state": "Kerala",
   "city": "Thiruvananthapuram",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1056,6 +1350,9 @@
   "state": "Kerala",
   "city": "Ernakulam",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1065,6 +1362,9 @@
   "state": "Kerala",
   "city": "Palakkad",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1074,6 +1374,9 @@
   "state": "Kerala",
   "city": "Thrissur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1083,6 +1386,9 @@
   "state": "Kerala",
   "city": "Thrissur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1092,6 +1398,9 @@
   "state": "Kerala",
   "city": "Thiruvananthapuram",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1101,6 +1410,9 @@
   "state": "Kerala",
   "city": "Ernakulam",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1110,6 +1422,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1119,6 +1434,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1128,6 +1446,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1137,6 +1458,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1146,6 +1470,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1155,6 +1482,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1164,6 +1494,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1173,6 +1506,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1182,6 +1518,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1191,6 +1530,9 @@
   "state": "Rajasthan",
   "city": "Jaipur",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1200,6 +1542,9 @@
   "state": "Madhya Pradesh",
   "city": "Bhopal",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1209,6 +1554,9 @@
   "state": "Madhya Pradesh",
   "city": "Indore",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1218,6 +1566,9 @@
   "state": "Madhya Pradesh",
   "city": "Gwalior",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1227,6 +1578,9 @@
   "state": "Madhya Pradesh",
   "city": "Gwalior",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1236,6 +1590,9 @@
   "state": "Madhya Pradesh",
   "city": "Indore",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1245,6 +1602,9 @@
   "state": "Madhya Pradesh",
   "city": "Indore",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1254,6 +1614,9 @@
   "state": "Madhya Pradesh",
   "city": "Indore",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1263,6 +1626,9 @@
   "state": "Madhya Pradesh",
   "city": "Bhopal",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1272,6 +1638,9 @@
   "state": "Madhya Pradesh",
   "city": "Bhopal",
   "category": "Engineering",
+  "courses": [
+   "B.Tech"
+  ],
   "verified": false
  },
  {
@@ -1283,6 +1652,9 @@
   "category": "Management",
   "established": "1961",
   "website": "iima.ac.in",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1294,6 +1666,9 @@
   "category": "Management",
   "established": "1973",
   "website": "iimb.ac.in",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1305,6 +1680,9 @@
   "category": "Management",
   "established": "1949",
   "website": "xlri.ac.in",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1316,6 +1694,9 @@
   "category": "Management",
   "established": "1954",
   "website": "fms.edu",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1327,6 +1708,9 @@
   "category": "Management",
   "established": "1981",
   "website": "spjimr.org",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1338,6 +1722,9 @@
   "category": "Management",
   "established": "1981",
   "website": "nmims.edu",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1349,6 +1736,9 @@
   "category": "Management",
   "established": "1978",
   "website": "sibmpune.edu.in",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1360,6 +1750,9 @@
   "category": "Management",
   "established": "2004",
   "website": "greatlakes.edu.in",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1371,6 +1764,9 @@
   "category": "Management",
   "established": "1977",
   "website": "welingkar.org",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1382,6 +1778,9 @@
   "category": "Management",
   "established": "1965",
   "website": "jbims.edu",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1391,6 +1790,9 @@
   "state": "Maharashtra",
   "city": "Pune",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1400,6 +1802,9 @@
   "state": "Maharashtra",
   "city": "Pune",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1409,6 +1814,9 @@
   "state": "Odisha",
   "city": "Bhubaneswar",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1418,6 +1826,9 @@
   "state": "Uttar Pradesh",
   "city": "Noida",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1427,6 +1838,9 @@
   "state": "Tamil Nadu",
   "city": "Vellore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1436,6 +1850,9 @@
   "state": "Telangana",
   "city": "Hyderabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1445,6 +1862,9 @@
   "state": "Telangana",
   "city": "Hyderabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1454,6 +1874,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1463,6 +1886,9 @@
   "state": "Uttar Pradesh",
   "city": "Ghaziabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1472,6 +1898,9 @@
   "state": "Karnataka",
   "city": "Manipal",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1481,6 +1910,9 @@
   "state": "Uttar Pradesh",
   "city": "Greater Noida",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1490,6 +1922,9 @@
   "state": "Delhi",
   "city": "New Delhi",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1499,6 +1934,9 @@
   "state": "Goa",
   "city": "Sanquelim",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1508,6 +1946,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1517,6 +1958,9 @@
   "state": "Telangana",
   "city": "Hyderabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1526,6 +1970,9 @@
   "state": "Maharashtra",
   "city": "Mumbai",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1535,6 +1982,9 @@
   "state": "Maharashtra",
   "city": "Mumbai",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1544,6 +1994,9 @@
   "state": "Maharashtra",
   "city": "Mumbai",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1553,6 +2006,9 @@
   "state": "Maharashtra",
   "city": "Mumbai",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1562,6 +2018,9 @@
   "state": "Maharashtra",
   "city": "Navi Mumbai",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1571,6 +2030,9 @@
   "state": "Maharashtra",
   "city": "Pune",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1580,6 +2042,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1589,6 +2054,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1598,6 +2066,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1607,6 +2078,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1616,6 +2090,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1625,6 +2102,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1634,6 +2114,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1643,6 +2126,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1652,6 +2138,9 @@
   "state": "Telangana",
   "city": "Hyderabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1661,6 +2150,9 @@
   "state": "Telangana",
   "city": "Hyderabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1670,6 +2162,9 @@
   "state": "Telangana",
   "city": "Hyderabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1679,6 +2174,9 @@
   "state": "Telangana",
   "city": "Hyderabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1688,6 +2186,9 @@
   "state": "Telangana",
   "city": "Secunderabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1697,6 +2198,9 @@
   "state": "Telangana",
   "city": "Hyderabad",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1706,6 +2210,9 @@
   "state": "Andhra Pradesh",
   "city": "Vaddeswaram/Guntur",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1715,6 +2222,9 @@
   "state": "Andhra Pradesh",
   "city": "Visakhapatnam",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1724,6 +2234,9 @@
   "state": "Andhra Pradesh",
   "city": "Sri City",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1733,6 +2246,9 @@
   "state": "Andhra Pradesh",
   "city": "Guntur",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1742,6 +2258,9 @@
   "state": "Andhra Pradesh",
   "city": "Amaravati",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1751,6 +2270,9 @@
   "state": "Andhra Pradesh",
   "city": "Amaravati",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1760,6 +2282,9 @@
   "state": "Tamil Nadu",
   "city": "Chennai",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1769,6 +2294,9 @@
   "state": "Tamil Nadu",
   "city": "Coimbatore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1778,6 +2306,9 @@
   "state": "Tamil Nadu",
   "city": "Coimbatore",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1787,6 +2318,9 @@
   "state": "Tamil Nadu",
   "city": "Chennai",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1796,6 +2330,9 @@
   "state": "Tamil Nadu",
   "city": "Salem",
   "category": "Management",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -1807,6 +2344,9 @@
   "category": "Medical",
   "established": "1956",
   "website": "aiims.edu",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1818,6 +2358,9 @@
   "category": "Medical",
   "established": "1958",
   "website": "mamc.delhi.gov.in",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1828,6 +2371,9 @@
   "category": "Medical",
   "established": "1953",
   "website": "manipal.edu",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1839,6 +2385,9 @@
   "category": "Medical",
   "established": "1900",
   "website": "cmch-vellore.edu",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1850,6 +2399,9 @@
   "category": "Medical",
   "established": "1984",
   "website": "jssuni.edu.in",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1861,6 +2413,9 @@
   "category": "Medical",
   "established": "1989",
   "website": "bharatividyapeeth.edu",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1872,6 +2427,9 @@
   "category": "Medical",
   "established": "1991",
   "website": "yenepoya.edu.in",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1883,6 +2441,9 @@
   "category": "Medical",
   "established": "1996",
   "website": "dpu.edu.in",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1894,6 +2455,9 @@
   "category": "Medical",
   "established": "1985",
   "website": "sriramachandra.edu.in",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1905,6 +2469,9 @@
   "category": "Medical",
   "established": "1979",
   "website": "msrmc.ac.in",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1914,6 +2481,9 @@
   "state": "Karnataka",
   "city": "Bangalore",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1923,6 +2493,9 @@
   "state": "Kerala",
   "city": "Kochi",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1932,6 +2505,9 @@
   "state": "Karnataka",
   "city": "Mangalore",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1941,6 +2517,9 @@
   "state": "Tamil Nadu",
   "city": "Chennai",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1950,6 +2529,9 @@
   "state": "Tamil Nadu",
   "city": "Kattankulathur",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1959,6 +2541,9 @@
   "state": "Maharashtra",
   "city": "Pune",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1968,6 +2553,9 @@
   "state": "Maharashtra",
   "city": "Karad",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1977,6 +2565,9 @@
   "state": "Maharashtra",
   "city": "Navi Mumbai",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1986,6 +2577,9 @@
   "state": "Kerala",
   "city": "Tiruvalla",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -1995,6 +2589,9 @@
   "state": "Kerala",
   "city": "Trivandrum",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -2004,6 +2601,9 @@
   "state": "Kerala",
   "city": "Thrissur",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -2013,6 +2613,9 @@
   "state": "Telangana",
   "city": "Hyderabad",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -2022,6 +2625,9 @@
   "state": "Telangana",
   "city": "Khammam",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -2031,6 +2637,9 @@
   "state": "Telangana",
   "city": "Narketpally",
   "category": "Medical",
+  "courses": [
+   "MBBS"
+  ],
   "verified": false
  },
  {
@@ -2151,6 +2760,11 @@
   "fee": "₹2.5–4.5L / year",
   "approvals": "BBA, MBA, PGDM",
   "entrance_exam": "SNAP / SET",
+  "courses": [
+   "BBA",
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -2163,6 +2777,11 @@
   "fee": "₹3.5–5.0L / year",
   "approvals": "BBA, MBA, PGDM",
   "entrance_exam": "NMAT / NPAT",
+  "courses": [
+   "BBA",
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -2175,6 +2794,10 @@
   "fee": "₹1.8–2.5L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "MHT-CET / CAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2187,6 +2810,10 @@
   "fee": "₹1.0–1.8L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "CET / CAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2199,6 +2826,10 @@
   "fee": "₹5.0–8.0L / year",
   "approvals": "MBA, PGDM",
   "entrance_exam": "CAT / GMAT",
+  "courses": [
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -2211,6 +2842,10 @@
   "fee": "₹1.2–2.0L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "CAT / CMAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2223,6 +2858,11 @@
   "fee": "₹2.5–3.5L / year",
   "approvals": "BA LLB, BBA LLB, LLM",
   "entrance_exam": "SLAT",
+  "courses": [
+   "BA LLB",
+   "BBA LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -2235,6 +2875,10 @@
   "fee": "₹0.40–0.60L / year",
   "approvals": "LLB, LLM",
   "entrance_exam": "MH-CET Law",
+  "courses": [
+   "LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -2247,6 +2891,10 @@
   "fee": "₹2.5–3.5L / year",
   "approvals": "BA LLB, BBA LLB",
   "entrance_exam": "NMIMS NLAT",
+  "courses": [
+   "BA LLB",
+   "BBA LLB"
+  ],
   "verified": false
  },
  {
@@ -2259,6 +2907,11 @@
   "fee": "₹1.5–2.0L / year",
   "approvals": "BA LLB, LLB, LLM",
   "entrance_exam": "MH-CET Law",
+  "courses": [
+   "BA LLB",
+   "LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -2271,6 +2924,10 @@
   "fee": "₹2.0–3.0L / year",
   "approvals": "BA LLB, BBA LLB",
   "entrance_exam": "CLAT / AILET",
+  "courses": [
+   "BA LLB",
+   "BBA LLB"
+  ],
   "verified": false
  },
  {
@@ -2283,6 +2940,10 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BA LLB, BBA LLB",
   "entrance_exam": "CLAT / MHT",
+  "courses": [
+   "BA LLB",
+   "BBA LLB"
+  ],
   "verified": false
  },
  {
@@ -2295,6 +2956,11 @@
   "fee": "₹12–16L / year",
   "approvals": "MBBS, BDS, MD",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "MD"
+  ],
   "verified": false
  },
  {
@@ -2307,6 +2973,11 @@
   "fee": "₹10–14L / year",
   "approvals": "MBBS, BDS, MD",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "MD"
+  ],
   "verified": false
  },
  {
@@ -2319,6 +2990,11 @@
   "fee": "₹8–11L / year",
   "approvals": "MBBS, BDS, BAMS",
   "entrance_exam": "NEET-UG",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "BAMS"
+  ],
   "verified": false
  },
  {
@@ -2331,6 +3007,11 @@
   "fee": "₹8–12L / year",
   "approvals": "MBBS, MD, MS",
   "entrance_exam": "NEET-UG / State CET",
+  "courses": [
+   "MBBS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -2343,6 +3024,11 @@
   "fee": "₹1.5–3L / year",
   "approvals": "MBBS, MD, MS",
   "entrance_exam": "NEET-UG",
+  "courses": [
+   "MBBS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -2353,8 +3039,12 @@
   "city": "Pune",
   "category": "Design",
   "fee": "₹2.5–3.5L / year",
-  "approvals": "B",
+  "approvals": "B.Des, M.Des",
   "entrance_exam": "NID / UCEED",
+  "courses": [
+   "B.Des",
+   "M.Des"
+  ],
   "verified": false
  },
  {
@@ -2365,8 +3055,12 @@
   "city": "Mumbai",
   "category": "Design",
   "fee": "₹1.5–2.5L / year",
-  "approvals": "B",
+  "approvals": "B.Arch, M.Arch",
   "entrance_exam": "NATA / JEE Paper 2",
+  "courses": [
+   "B.Arch",
+   "M.Arch"
+  ],
   "verified": false
  },
  {
@@ -2377,8 +3071,12 @@
   "city": "Pune",
   "category": "Design",
   "fee": "₹2.0–3.0L / year",
-  "approvals": "B",
+  "approvals": "B.Arch, M.Arch",
   "entrance_exam": "NATA",
+  "courses": [
+   "B.Arch",
+   "M.Arch"
+  ],
   "verified": false
  },
  {
@@ -2389,8 +3087,12 @@
   "city": "Mumbai",
   "category": "Medical",
   "fee": "₹2.5–3.5L / year",
-  "approvals": "B",
+  "approvals": "B.Pharm, Pharm.D",
   "entrance_exam": "NPAT / NEET",
+  "courses": [
+   "B.Pharm",
+   "Pharm.D"
+  ],
   "verified": false
  },
  {
@@ -2401,8 +3103,11 @@
   "city": "Pune",
   "category": "Management",
   "fee": "₹3.0–4.0L / year",
-  "approvals": "B",
+  "approvals": "B.Des (Fashion, Comm.)",
   "entrance_exam": "SEED / SNAP",
+  "courses": [
+   "B.Des"
+  ],
   "verified": false
  },
  {
@@ -2413,8 +3118,11 @@
   "city": "Navi Mumbai",
   "category": "Design",
   "fee": "₹1.8–2.5L / year",
-  "approvals": "B",
+  "approvals": "B.Arch",
   "entrance_exam": "NATA / JEE Paper 2",
+  "courses": [
+   "B.Arch"
+  ],
   "verified": false
  },
  {
@@ -2438,6 +3146,7 @@
   "category": "Engineering",
   "fee": "₹1.4–2.0L / year",
   "approvals": "AICTE/VTU/NAAC A+",
+  "entrance_exam": "KCET / COMEDK. | Also accessible via Ways2 College (Partner PA01) network as 'BMS College of Engineering'",
   "verified": false
  },
  {
@@ -2449,6 +3158,7 @@
   "category": "Engineering",
   "fee": "₹1.5–2.2L / year",
   "approvals": "AICTE/VTU/NAAC A+",
+  "entrance_exam": "KCET / COMEDK. | Also accessible via Ways2 College (Partner PA01) network as 'MS Ramaiah Institute of Technology'",
   "verified": false
  },
  {
@@ -2484,6 +3194,7 @@
   "category": "Engineering",
   "fee": "₹2.0–3.0L / year",
   "approvals": "UGC/AICTE",
+  "entrance_exam": "KCET / COMEDK. | Also accessible via Ways2 College (Partner PA01) network as 'Dayananda Sagar Institute of Technology'",
   "verified": false
  },
  {
@@ -2495,6 +3206,7 @@
   "category": "Engineering",
   "fee": "₹1.5–2.5L / year",
   "approvals": "UGC/AICTE",
+  "entrance_exam": "REVASAT / JEE. | Also accessible via Ways2 College (Partner PA01) network as 'REVA University'",
   "verified": false
  },
  {
@@ -2507,6 +3219,10 @@
   "fee": "₹5.5–8.0L / year",
   "approvals": "MBA, PGDM",
   "entrance_exam": "CAT / XAT / GMAT",
+  "courses": [
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -2519,6 +3235,10 @@
   "fee": "₹3.5–5.0L / year",
   "approvals": "MBA, PGDM",
   "entrance_exam": "CAT / XAT",
+  "courses": [
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -2531,6 +3251,10 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "GAT / CAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2543,6 +3267,10 @@
   "fee": "₹3.0–4.5L / year",
   "approvals": "MBA, PGDM",
   "entrance_exam": "CAT / MAT",
+  "courses": [
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -2555,6 +3283,10 @@
   "fee": "₹2.5–4.0L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "MET / CAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2566,6 +3298,11 @@
   "category": "Engineering",
   "fee": "₹1.8–3.0L / year",
   "approvals": "BBA, MBA",
+  "entrance_exam": "JAIN UGCET. | Also accessible via Ways2 College (Partner PA01) network as 'Jain University'",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2578,6 +3315,11 @@
   "fee": "₹2.0–3.5L / year",
   "approvals": "BA LLB, BBA LLB, LLM",
   "entrance_exam": "CLAT / MET",
+  "courses": [
+   "BA LLB",
+   "BBA LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -2590,6 +3332,11 @@
   "fee": "₹2.5–3.5L / year",
   "approvals": "BA LLB, BBA LLB, LLM",
   "entrance_exam": "CLAT / CUET",
+  "courses": [
+   "BA LLB",
+   "BBA LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -2602,6 +3349,11 @@
   "fee": "₹1.8–3.0L / year",
   "approvals": "BA LLB, BBA LLB, LLM",
   "entrance_exam": "CLAT / AUSAT",
+  "courses": [
+   "BA LLB",
+   "BBA LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -2614,6 +3366,10 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BA LLB, BBA LLB",
   "entrance_exam": "CLAT / JAIN CET",
+  "courses": [
+   "BA LLB",
+   "BBA LLB"
+  ],
   "verified": false
  },
  {
@@ -2626,6 +3382,10 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BA LLB, BBA LLB",
   "entrance_exam": "CLAT / KCET",
+  "courses": [
+   "BA LLB",
+   "BBA LLB"
+  ],
   "verified": false
  },
  {
@@ -2638,6 +3398,10 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BA LLB, BBA",
   "entrance_exam": "CLAT / CUET",
+  "courses": [
+   "BA LLB",
+   "BBA"
+  ],
   "verified": false
  },
  {
@@ -2650,6 +3414,11 @@
   "fee": "₹16–22L / year",
   "approvals": "MBBS, MD, MS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -2662,6 +3431,12 @@
   "fee": "₹12–18L / year",
   "approvals": "MBBS, BDS, MD, MS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -2674,6 +3449,11 @@
   "fee": "₹10–15L / year",
   "approvals": "MBBS, MD, MS",
   "entrance_exam": "NEET-UG / State CET",
+  "courses": [
+   "MBBS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -2686,6 +3466,11 @@
   "fee": "₹10–16L / year",
   "approvals": "MBBS, BDS, BAMS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "BAMS"
+  ],
   "verified": false
  },
  {
@@ -2698,6 +3483,11 @@
   "fee": "₹10–14L / year",
   "approvals": "MBBS, MD, MS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -2710,6 +3500,10 @@
   "fee": "₹10–14L / year",
   "approvals": "MBBS, MD",
   "entrance_exam": "NEET-UG / State",
+  "courses": [
+   "MBBS",
+   "MD"
+  ],
   "verified": false
  },
  {
@@ -2720,8 +3514,12 @@
   "city": "Manipal",
   "category": "Design",
   "fee": "₹2.5–3.5L / year",
-  "approvals": "B",
+  "approvals": "B.Arch, M.Arch",
   "entrance_exam": "NATA / MET",
+  "courses": [
+   "B.Arch",
+   "M.Arch"
+  ],
   "verified": false
  },
  {
@@ -2732,8 +3530,11 @@
   "city": "Bengaluru",
   "category": "Design",
   "fee": "₹2.0–3.0L / year",
-  "approvals": "B",
+  "approvals": "B.Arch",
   "entrance_exam": "NATA / KCET",
+  "courses": [
+   "B.Arch"
+  ],
   "verified": false
  },
  {
@@ -2744,8 +3545,13 @@
   "city": "Manipal",
   "category": "Medical",
   "fee": "₹2.0–3.5L / year",
-  "approvals": "B",
+  "approvals": "B.Pharm, Pharm.D, M.Pharm",
   "entrance_exam": "MET / NEET",
+  "courses": [
+   "B.Pharm",
+   "Pharm.D",
+   "M.Pharm"
+  ],
   "verified": false
  },
  {
@@ -2756,8 +3562,13 @@
   "city": "Mysuru/Ooty",
   "category": "Medical",
   "fee": "₹1.5–2.5L / year",
-  "approvals": "B",
+  "approvals": "B.Pharm, Pharm.D, M.Pharm",
   "entrance_exam": "NEET / KCET",
+  "courses": [
+   "B.Pharm",
+   "Pharm.D",
+   "M.Pharm"
+  ],
   "verified": false
  },
  {
@@ -2768,8 +3579,12 @@
   "city": "Bengaluru",
   "category": "Other",
   "fee": "₹3.5–5.0L / year",
-  "approvals": "B",
+  "approvals": "B.Des, M.Des",
   "entrance_exam": "SMIAD Entrance",
+  "courses": [
+   "B.Des",
+   "M.Des"
+  ],
   "verified": false
  },
  {
@@ -2780,8 +3595,11 @@
   "city": "Bengaluru",
   "category": "Design",
   "fee": "₹1.5–2.5L / year",
-  "approvals": "B",
+  "approvals": "B.Arch",
   "entrance_exam": "NATA / KCET",
+  "courses": [
+   "B.Arch"
+  ],
   "verified": false
  },
  {
@@ -2793,6 +3611,7 @@
   "category": "Engineering",
   "fee": "₹1.8–2.5L / year",
   "approvals": "UGC/AICTE/NAAC A++",
+  "entrance_exam": "VITEEE. | Also accessible via Ways2 College (Partner PA01) network as 'VIT University'",
   "verified": false
  },
  {
@@ -2828,6 +3647,7 @@
   "category": "Engineering",
   "fee": "₹1.0–1.5L / year",
   "approvals": "AICTE/Anna Univ/NAAC A+",
+  "entrance_exam": "TNEA. | Merged 27 Sep 2026: BTECH143 'Sri Sivasubramaniya Nadar (SSN)' was a duplicate of this same Chennai college on the Bharat Padho site (SSN = Sri Sivasubramaniya Nadar) and has been removed",
   "verified": false
  },
  {
@@ -2888,6 +3708,11 @@
   "fee": "₹1.8–3.0L / year",
   "approvals": "BBA, MBA, PGDM",
   "entrance_exam": "SRMJEEE / CAT",
+  "courses": [
+   "BBA",
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -2900,6 +3725,10 @@
   "fee": "₹2.0–3.5L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "AEEE / CAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2912,6 +3741,10 @@
   "fee": "₹3.5–5.0L / year",
   "approvals": "MBA, PGDM",
   "entrance_exam": "CAT / XAT",
+  "courses": [
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -2924,6 +3757,10 @@
   "fee": "₹7.0–10L / year",
   "approvals": "PGDM, MBA",
   "entrance_exam": "CAT / GMAT",
+  "courses": [
+   "PGDM",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2936,6 +3773,10 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "SIMATS CET",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2948,6 +3789,9 @@
   "fee": "₹1.0–2.0L / year",
   "approvals": "MBA",
   "entrance_exam": "TANCET / CAT",
+  "courses": [
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -2960,6 +3804,11 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BA LLB, BBA LLB, LLM",
   "entrance_exam": "CLAT / SRMJEEE",
+  "courses": [
+   "BA LLB",
+   "BBA LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -2972,6 +3821,10 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BA LLB, BBA LLB",
   "entrance_exam": "CLAT / VITEEE",
+  "courses": [
+   "BA LLB",
+   "BBA LLB"
+  ],
   "verified": false
  },
  {
@@ -2984,6 +3837,11 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BA LLB, BBA LLB, LLM",
   "entrance_exam": "CLAT / SIMATS",
+  "courses": [
+   "BA LLB",
+   "BBA LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -2996,6 +3854,10 @@
   "fee": "₹2.0–3.0L / year",
   "approvals": "BA LLB, BBA LLB",
   "entrance_exam": "CLAT / AEEE",
+  "courses": [
+   "BA LLB",
+   "BBA LLB"
+  ],
   "verified": false
  },
  {
@@ -3008,6 +3870,11 @@
   "fee": "₹0.25–0.50L / year",
   "approvals": "BA LLB, LLB, LLM",
   "entrance_exam": "TNDALU CET",
+  "courses": [
+   "BA LLB",
+   "LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -3020,6 +3887,10 @@
   "fee": "₹0.10–0.30L / year",
   "approvals": "BA LLB, LLB",
   "entrance_exam": "TNDALU CET",
+  "courses": [
+   "BA LLB",
+   "LLB"
+  ],
   "verified": false
  },
  {
@@ -3032,6 +3903,12 @@
   "fee": "₹12–18L / year",
   "approvals": "MBBS, BDS, MD, MS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -3044,6 +3921,12 @@
   "fee": "₹12–18L / year",
   "approvals": "MBBS, BDS, BAMS, MD",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "BAMS",
+   "MD"
+  ],
   "verified": false
  },
  {
@@ -3056,6 +3939,12 @@
   "fee": "₹10–15L / year",
   "approvals": "MBBS, BDS, MD, MS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -3068,6 +3957,11 @@
   "fee": "₹8–12L / year",
   "approvals": "MBBS, BDS, BAMS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "BAMS"
+  ],
   "verified": false
  },
  {
@@ -3080,6 +3974,11 @@
   "fee": "₹8–12L / year",
   "approvals": "MBBS, MD, MS",
   "entrance_exam": "NEET-UG / State",
+  "courses": [
+   "MBBS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -3092,6 +3991,11 @@
   "fee": "₹8–12L / year",
   "approvals": "MBBS, MD, BDS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "MD",
+   "BDS"
+  ],
   "verified": false
  },
  {
@@ -3104,6 +4008,10 @@
   "fee": "₹8–12L / year",
   "approvals": "MBBS, MD",
   "entrance_exam": "NEET-UG / State CET",
+  "courses": [
+   "MBBS",
+   "MD"
+  ],
   "verified": false
  },
  {
@@ -3114,8 +4022,12 @@
   "city": "Chennai",
   "category": "Design",
   "fee": "₹2.5–3.5L / year",
-  "approvals": "B",
+  "approvals": "B.Arch, M.Arch",
   "entrance_exam": "NATA / AEEE",
+  "courses": [
+   "B.Arch",
+   "M.Arch"
+  ],
   "verified": false
  },
  {
@@ -3126,8 +4038,11 @@
   "city": "Chennai",
   "category": "Design",
   "fee": "₹2.0–3.0L / year",
-  "approvals": "B",
+  "approvals": "B.Arch",
   "entrance_exam": "NATA / SRMJEEE",
+  "courses": [
+   "B.Arch"
+  ],
   "verified": false
  },
  {
@@ -3138,8 +4053,13 @@
   "city": "Chennai",
   "category": "Medical",
   "fee": "₹1.5–2.5L / year",
-  "approvals": "B",
+  "approvals": "B.Pharm, Pharm.D, M.Pharm",
   "entrance_exam": "SRMJEEE / NEET",
+  "courses": [
+   "B.Pharm",
+   "Pharm.D",
+   "M.Pharm"
+  ],
   "verified": false
  },
  {
@@ -3150,8 +4070,12 @@
   "city": "Vellore",
   "category": "Medical",
   "fee": "₹1.5–2.5L / year",
-  "approvals": "B",
+  "approvals": "B.Pharm, M.Pharm",
   "entrance_exam": "VITEEE / NEET",
+  "courses": [
+   "B.Pharm",
+   "M.Pharm"
+  ],
   "verified": false
  },
  {
@@ -3162,8 +4086,12 @@
   "city": "Chennai",
   "category": "Medical",
   "fee": "₹2.0–3.0L / year",
-  "approvals": "B",
+  "approvals": "B.Pharm, Pharm.D",
   "entrance_exam": "NEET / Internal",
+  "courses": [
+   "B.Pharm",
+   "Pharm.D"
+  ],
   "verified": false
  },
  {
@@ -3174,8 +4102,11 @@
   "city": "Chennai",
   "category": "Design",
   "fee": "₹0.75–1.5L / year",
-  "approvals": "B",
+  "approvals": "B.Arch, B.Tech",
   "entrance_exam": "NATA / TNEA",
+  "courses": [
+   "B.Arch"
+  ],
   "verified": false
  },
  {
@@ -3236,6 +4167,10 @@
   "fee": "₹3.0–5.0L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "SNU SAT / CAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -3248,6 +4183,10 @@
   "fee": "₹2.5–4.0L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "CAT / XAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -3260,6 +4199,11 @@
   "fee": "₹1.5–3.0L / year",
   "approvals": "BBA, MBA, PGDM",
   "entrance_exam": "CAT / CUET",
+  "courses": [
+   "BBA",
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -3272,6 +4216,10 @@
   "fee": "₹1.0–2.0L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "CUET / CAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -3284,6 +4232,10 @@
   "fee": "₹1.0–2.0L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "CUET / CAT",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -3296,6 +4248,10 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "CAT / CUET",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -3308,6 +4264,10 @@
   "fee": "₹1.0–2.0L / year",
   "approvals": "BBA, MBA",
   "entrance_exam": "CAT / CUET",
+  "courses": [
+   "BBA",
+   "MBA"
+  ],
   "verified": false
  },
  {
@@ -3320,6 +4280,11 @@
   "fee": "₹2.0–3.5L / year",
   "approvals": "BA LLB, BBA LLB, LLM",
   "entrance_exam": "CLAT / CUET",
+  "courses": [
+   "BA LLB",
+   "BBA LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -3332,6 +4297,10 @@
   "fee": "₹2.5–4.0L / year",
   "approvals": "BA LLB, BBA LLB",
   "entrance_exam": "CLAT / BU SAT",
+  "courses": [
+   "BA LLB",
+   "BBA LLB"
+  ],
   "verified": false
  },
  {
@@ -3344,6 +4313,11 @@
   "fee": "₹1.5–3.0L / year",
   "approvals": "BA LLB, BBA LLB, LLM",
   "entrance_exam": "CLAT / CUET",
+  "courses": [
+   "BA LLB",
+   "BBA LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -3356,6 +4330,10 @@
   "fee": "₹1.5–2.5L / year",
   "approvals": "BA LLB, BBA LLB",
   "entrance_exam": "CLAT / CUET",
+  "courses": [
+   "BA LLB",
+   "BBA LLB"
+  ],
   "verified": false
  },
  {
@@ -3368,6 +4346,11 @@
   "fee": "₹1.5–3.0L / year",
   "approvals": "BA LLB, BBA LLB, LLM",
   "entrance_exam": "CLAT / LLOYD Entrance",
+  "courses": [
+   "BA LLB",
+   "BBA LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -3380,6 +4363,11 @@
   "fee": "₹1.0–2.0L / year",
   "approvals": "BA LLB, LLB, LLM",
   "entrance_exam": "CLAT / CUET",
+  "courses": [
+   "BA LLB",
+   "LLB",
+   "LLM"
+  ],
   "verified": false
  },
  {
@@ -3392,6 +4380,10 @@
   "fee": "₹1.0–2.0L / year",
   "approvals": "BA LLB, LLB",
   "entrance_exam": "CLAT / CUET",
+  "courses": [
+   "BA LLB",
+   "LLB"
+  ],
   "verified": false
  },
  {
@@ -3404,6 +4396,12 @@
   "fee": "₹8–12L / year",
   "approvals": "MBBS, BDS, MD, MS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "MD",
+   "MS"
+  ],
   "verified": false
  },
  {
@@ -3416,6 +4414,11 @@
   "fee": "₹6–10L / year",
   "approvals": "MBBS, BDS, BAMS",
   "entrance_exam": "NEET-UG / State",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "BAMS"
+  ],
   "verified": false
  },
  {
@@ -3428,6 +4431,11 @@
   "fee": "₹6–10L / year",
   "approvals": "MBBS, BDS, BAMS",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "BAMS"
+  ],
   "verified": false
  },
  {
@@ -3440,6 +4448,11 @@
   "fee": "₹8–12L / year",
   "approvals": "MBBS, BDS, MD",
   "entrance_exam": "NEET-UG / MCC",
+  "courses": [
+   "MBBS",
+   "BDS",
+   "MD"
+  ],
   "verified": false
  },
  {
@@ -3452,6 +4465,10 @@
   "fee": "₹6–10L / year",
   "approvals": "MBBS, MD",
   "entrance_exam": "NEET-UG / State",
+  "courses": [
+   "MBBS",
+   "MD"
+  ],
   "verified": false
  },
  {
@@ -3464,6 +4481,10 @@
   "fee": "₹6–9L / year",
   "approvals": "MBBS, MD",
   "entrance_exam": "NEET-UG / State",
+  "courses": [
+   "MBBS",
+   "MD"
+  ],
   "verified": false
  },
  {
@@ -3476,6 +4497,10 @@
   "fee": "₹5–8L / year",
   "approvals": "MBBS, MD",
   "entrance_exam": "NEET-UG / State",
+  "courses": [
+   "MBBS",
+   "MD"
+  ],
   "verified": false
  },
  {
@@ -3488,6 +4513,10 @@
   "fee": "₹8–12L / year",
   "approvals": "MBBS, BDS",
   "entrance_exam": "NEET-UG / State",
+  "courses": [
+   "MBBS",
+   "BDS"
+  ],
   "verified": false
  },
  {
@@ -3498,8 +4527,12 @@
   "city": "Noida",
   "category": "Design",
   "fee": "₹2.5–4.0L / year",
-  "approvals": "B",
+  "approvals": "B.Arch, M.Arch",
   "entrance_exam": "NATA / AUSAT",
+  "courses": [
+   "B.Arch",
+   "M.Arch"
+  ],
   "verified": false
  },
  {
@@ -3510,8 +4543,12 @@
   "city": "Greater Noida",
   "category": "Design",
   "fee": "₹3.0–4.5L / year",
-  "approvals": "B",
+  "approvals": "B.Des, B.Arch",
   "entrance_exam": "NATA / BU SAT",
+  "courses": [
+   "B.Des",
+   "B.Arch"
+  ],
   "verified": false
  },
  {
@@ -3522,8 +4559,11 @@
   "city": "Greater Noida",
   "category": "Design",
   "fee": "₹2.0–3.5L / year",
-  "approvals": "B",
+  "approvals": "B.Arch",
   "entrance_exam": "NATA / CUET",
+  "courses": [
+   "B.Arch"
+  ],
   "verified": false
  },
  {
@@ -3534,8 +4574,13 @@
   "city": "Noida",
   "category": "Medical",
   "fee": "₹2.0–3.0L / year",
-  "approvals": "B",
+  "approvals": "B.Pharm, Pharm.D, M.Pharm",
   "entrance_exam": "NEET / AUSAT",
+  "courses": [
+   "B.Pharm",
+   "Pharm.D",
+   "M.Pharm"
+  ],
   "verified": false
  },
  {
@@ -3546,8 +4591,12 @@
   "city": "Lucknow",
   "category": "Engineering",
   "fee": "₹0.80–1.5L / year",
-  "approvals": "B",
+  "approvals": "B.Pharm, D.Pharm",
   "entrance_exam": "CUET / UPCET",
+  "courses": [
+   "B.Pharm",
+   "D.Pharm"
+  ],
   "verified": false
  },
  {
@@ -3637,6 +4686,11 @@
   "category": "Medical",
   "fee": "₹8–12L / year",
   "approvals": "BDS, MDS",
+  "entrance_exam": "NEET-UG. Added 27 Sep 2026 — found missing from the 153-college directory during a cross-check against the Bharat Padho site summary",
+  "courses": [
+   "BDS",
+   "MDS"
+  ],
   "verified": false
  },
  {
@@ -3648,6 +4702,12 @@
   "category": "Management",
   "fee": "₹2.5–4.0L / year",
   "approvals": "BBA, MBA, PGDM",
+  "entrance_exam": "CAT / CUET. Added 27 Sep 2026 — found missing from the 153-college directory during a cross-check against the Bharat Padho site summary",
+  "courses": [
+   "BBA",
+   "MBA",
+   "PGDM"
+  ],
   "verified": false
  },
  {
@@ -3658,7 +4718,12 @@
   "city": "Greater Noida",
   "category": "Engineering",
   "fee": "₹1.0–2.0L / year",
-  "approvals": "B",
+  "approvals": "B.Pharm, M.Pharm",
+  "entrance_exam": "CUET / UPCET. Added 27 Sep 2026 — found missing from the 153-college directory during a cross-check against the Bharat Padho site summary",
+  "courses": [
+   "B.Pharm",
+   "M.Pharm"
+  ],
   "verified": false
  }
 ]

@@ -262,6 +262,7 @@ var DEGREELELO_CONFIG = {
     var dirSearch = document.getElementById("dir-search");
     var dirState = document.getElementById("dir-state");
     var dirCategory = document.getElementById("dir-category");
+    var dirCourse = document.getElementById("dir-course");
     var dirCount = document.getElementById("directory-count");
     var dirEmpty = document.getElementById("directory-empty");
     var allColleges = [];
@@ -278,10 +279,12 @@ var DEGREELELO_CONFIG = {
       var q = (dirSearch.value || "").trim().toLowerCase();
       var stateFilter = dirState.value;
       var categoryFilter = dirCategory.value;
+      var courseFilter = dirCourse.value;
 
       var filtered = allColleges.filter(function (c) {
         if (stateFilter && c.state !== stateFilter) return false;
         if (categoryFilter && c.category !== categoryFilter) return false;
+        if (courseFilter && (!c.courses || c.courses.indexOf(courseFilter) === -1)) return false;
         if (q) {
           var haystack = ((c.name || "") + " " + (c.city || "") + " " + (c.state || "")).toLowerCase();
           if (haystack.indexOf(q) === -1) return false;
@@ -339,11 +342,15 @@ var DEGREELELO_CONFIG = {
         var params = new URLSearchParams(window.location.search);
         var initialCategory = params.get("category");
         var initialState = params.get("state");
+        var initialCourse = params.get("course");
         if (initialCategory && Array.prototype.some.call(dirCategory.options, function (o) { return o.value === initialCategory; })) {
           dirCategory.value = initialCategory;
         }
         if (initialState && Array.prototype.some.call(dirState.options, function (o) { return o.value === initialState; })) {
           dirState.value = initialState;
+        }
+        if (initialCourse && Array.prototype.some.call(dirCourse.options, function (o) { return o.value === initialCourse; })) {
+          dirCourse.value = initialCourse;
         }
 
         renderColleges();
@@ -355,6 +362,7 @@ var DEGREELELO_CONFIG = {
     dirSearch.addEventListener("input", renderColleges);
     dirState.addEventListener("change", renderColleges);
     dirCategory.addEventListener("change", renderColleges);
+    dirCourse.addEventListener("change", renderColleges);
   }
 
   /* ---------------- Footer year ---------------- */

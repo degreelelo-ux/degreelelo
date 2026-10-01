@@ -842,7 +842,12 @@ legend { padding: 0; font-weight: 600; }
   margin-bottom: var(--space-5);
 }
 @media (min-width: 700px) {
-  .directory-controls { grid-template-columns: 1.4fr 1fr 1fr; align-items: end; }
+  .directory-controls { grid-template-columns: 1fr 1fr; align-items: end; }
+  .directory-controls .field:first-child { grid-column: 1 / -1; }
+}
+@media (min-width: 1000px) {
+  .directory-controls { grid-template-columns: 1.2fr 1fr 1fr 1fr; }
+  .directory-controls .field:first-child { grid-column: auto; }
 }
 .directory-controls .field { margin-bottom: 0; }
 
