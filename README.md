@@ -65,6 +65,12 @@ function doPost(e) {
 
 The logo is a "Compass Pin" &mdash; a location pin with a graduation cap where the lens would be, standing for "the right place of learning, located." It replaced a plain "DL" initials badge. It's inline SVG, defined once in `build.py` as `BRAND_MARK_HEADER` (navy pin on blue, for the header on light backgrounds) and `BRAND_MARK_FOOTER` (navy pin on amber, matching the footer's existing accent-swap convention) and written into every page's header/footer by the generator &mdash; there's no separate logo image file for those two spots. The favicon, apple-touch-icon, and `assets/icon-192.png`/`icon-512.png` are static PNG/ICO exports of the same mark (header colorway) at fixed sizes, rendered once from the SVG and committed as binary files. If the mark ever changes, regenerate them by rendering `BRAND_MARK_HEADER`'s SVG at 1024&times;1024 (e.g. with a headless browser screenshot) and downscaling to 16/32/180/192/512px plus a multi-size `.ico` &mdash; there's no automated pipeline for that, same as `data/colleges.json`.
 
+## Blog
+
+Five articles, one per vertical (Engineering, Management, Medical, Study Abroad, Distance & Open Education), defined as a single `BLOG_POSTS` list in `build.py` and rendered through a shared `blog_post_main()` template &mdash; `blog.html` is the card-grid index, and each post is its own flat file (`blog-<slug>.html`, no subdirectory, so the shared header/footer/asset relative paths needed no changes).
+
+Content is deliberately scoped to **public, generic process information** &mdash; how JoSAA/CSAB counselling works, what NEET counselling documents are commonly asked for, how CAT/CMAT/MAT differ, what study-abroad applications typically require, how open-schooling recognition actually gets decided &mdash; never DegreeLelo-specific claims, institution names, fees, or placement figures. Each post ends with an honest caveat (reusing the `.notice.notice-info` pattern already used elsewhere) pointing out that exact rules/deadlines/documents change and should be verified against the current official source, not assumed from the article. To add a post: append an entry to `BLOG_POSTS` and re-run `build.py` &mdash; it's picked up by both the index grid and the generator's per-post `write()` loop automatically. Because exam/counselling processes genuinely do change over time, these articles are worth an occasional accuracy re-check, same spirit as the College Directory's "doesn't auto-update" caveat above.
+
 ## Before going live
 
 **WhatsApp Business number** — the "Chat with us on WhatsApp" button is already wired to the real number. If it ever needs to change, it's declared once, at the top of `js/main.js` (`DEGREELELO_CONFIG.whatsappNumber`).
@@ -81,7 +87,8 @@ study-abroad.html         Study Abroad admissions (USA / UK / Canada / Australia
 distance-education.html  Distance, Online & Open Schooling guidance
 college-predictor.html    Free college predictor tool
 colleges.html              College Directory (filterable, 343 institutions)
-blog.html                  Blog (placeholder)
+blog.html                  Blog index (5 articles, one per vertical)
+blog-*.html                 Individual blog articles (flat filenames, no subdirectory — keeps the shared header/footer/asset relative paths unchanged)
 faq.html                    FAQ
 contact.html               Contact
 privacy-policy.html       Privacy Policy
