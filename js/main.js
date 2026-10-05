@@ -261,6 +261,7 @@ var DEGREELELO_CONFIG = {
   if (directoryList) {
     var dirSearch = document.getElementById("dir-search");
     var dirState = document.getElementById("dir-state");
+    var dirCountry = document.getElementById("dir-country");
     var dirCategory = document.getElementById("dir-category");
     var dirCourse = document.getElementById("dir-course");
     var dirCount = document.getElementById("directory-count");
@@ -277,12 +278,16 @@ var DEGREELELO_CONFIG = {
 
     function renderColleges() {
       var q = (dirSearch.value || "").trim().toLowerCase();
-      var stateFilter = dirState.value;
+      // State and Country are two separate dropdowns, but both filter the
+      // same underlying "state" field (which holds a country name for
+      // Study Abroad institutions) — selecting one resets the other, so
+      // at most one of these is ever non-empty at render time.
+      var locationFilter = dirState.value || dirCountry.value;
       var categoryFilter = dirCategory.value;
       var courseFilter = dirCourse.value;
 
       var filtered = allColleges.filter(function (c) {
-        if (stateFilter && c.state !== stateFilter) return false;
+        if (locationFilter && c.state !== locationFilter) return false;
         if (categoryFilter && c.category !== categoryFilter) return false;
         if (courseFilter && (!c.courses || c.courses.indexOf(courseFilter) === -1)) return false;
         if (q) {
@@ -342,12 +347,16 @@ var DEGREELELO_CONFIG = {
         var params = new URLSearchParams(window.location.search);
         var initialCategory = params.get("category");
         var initialState = params.get("state");
+        var initialCountry = params.get("country");
         var initialCourse = params.get("course");
         if (initialCategory && Array.prototype.some.call(dirCategory.options, function (o) { return o.value === initialCategory; })) {
           dirCategory.value = initialCategory;
         }
         if (initialState && Array.prototype.some.call(dirState.options, function (o) { return o.value === initialState; })) {
           dirState.value = initialState;
+        }
+        if (initialCountry && Array.prototype.some.call(dirCountry.options, function (o) { return o.value === initialCountry; })) {
+          dirCountry.value = initialCountry;
         }
         if (initialCourse && Array.prototype.some.call(dirCourse.options, function (o) { return o.value === initialCourse; })) {
           dirCourse.value = initialCourse;
@@ -360,7 +369,14 @@ var DEGREELELO_CONFIG = {
       });
 
     dirSearch.addEventListener("input", renderColleges);
-    dirState.addEventListener("change", renderColleges);
+    dirState.addEventListener("change", function () {
+      if (dirState.value) dirCountry.value = "";
+      renderColleges();
+    });
+    dirCountry.addEventListener("change", function () {
+      if (dirCountry.value) dirState.value = "";
+      renderColleges();
+    });
     dirCategory.addEventListener("change", renderColleges);
     dirCourse.addEventListener("change", renderColleges);
   }

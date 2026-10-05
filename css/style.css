@@ -846,7 +846,7 @@ legend { padding: 0; font-weight: 600; }
   .directory-controls .field:first-child { grid-column: 1 / -1; }
 }
 @media (min-width: 1000px) {
-  .directory-controls { grid-template-columns: 1.2fr 1fr 1fr 1fr; }
+  .directory-controls { grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr; }
   .directory-controls .field:first-child { grid-column: auto; }
 }
 .directory-controls .field { margin-bottom: 0; }

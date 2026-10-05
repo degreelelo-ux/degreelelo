@@ -25,7 +25,7 @@ OUT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Bump this on every css/style.css or js/main.js content change so browsers
 # and the GitHub Pages CDN are forced to fetch the new file instead of
 # serving a stale cached copy.
-ASSET_VERSION = "5"
+ASSET_VERSION = "6"
 
 # --------------------------------------------------------------------------
 # Shared fragments
@@ -1054,11 +1054,17 @@ write("college-predictor", page(
 with open(os.path.join(OUT_DIR, "data", "colleges.json")) as _f:
     _colleges = json.load(_f)
 
-_states = sorted({c["state"] for c in _colleges if c.get("state")})
+# State and Country are split by category rather than a hardcoded country
+# list — "Study Abroad" is the one category whose "state" field actually
+# holds a country name (the source spreadsheet reuses that column for
+# both), so every other category's values are genuinely Indian states.
+_states = sorted({c["state"] for c in _colleges if c.get("state") and c["category"] != "Study Abroad"})
+_countries = sorted({c["state"] for c in _colleges if c.get("state") and c["category"] == "Study Abroad"})
 _categories = sorted({c["category"] for c in _colleges})
 _courses = sorted({course for c in _colleges for course in c.get("courses", [])})
 
 _state_options = "\n".join(f'            <option value="{s}">{s}</option>' for s in _states)
+_country_options = "\n".join(f'            <option value="{c}">{c}</option>' for c in _countries)
 _category_options = "\n".join(f'            <option value="{c}">{c}</option>' for c in _categories)
 _course_options = "\n".join(f'            <option value="{c}">{c}</option>' for c in _courses)
 
@@ -1067,7 +1073,7 @@ directory_main = f"""
   <div class="container">
     <span class="eyebrow">College Directory</span>
     <h1>College Directory</h1>
-    <p class="lede">{len(_colleges)} institutions across Engineering, Management, Medical, Law, Design, and Study Abroad, compiled from our own verified research and our partner counselling network. Filter by state, category, or course, or search by name.</p>
+    <p class="lede">{len(_colleges)} institutions across Engineering, Management, Medical, Law, Design, and Study Abroad, compiled from our own verified research and our partner counselling network. Filter by state, country, category, or course, or search by name.</p>
   </div>
 </div>
 
@@ -1083,6 +1089,13 @@ directory_main = f"""
         <select id="dir-state">
           <option value="">All states</option>
 {_state_options}
+        </select>
+      </div>
+      <div class="field">
+        <label for="dir-country">Country</label>
+        <select id="dir-country">
+          <option value="">All countries</option>
+{_country_options}
         </select>
       </div>
       <div class="field">
@@ -1107,7 +1120,7 @@ directory_main = f"""
     <div id="directory-empty" class="empty-state" hidden>
       {ICON_INFO}
       <h2 style="font-size:var(--text-xl);">No colleges match those filters</h2>
-      <p>Try a different state, category, or search term &mdash; or talk to a counsellor directly.</p>
+      <p>Try a different state, country, category, or search term &mdash; or talk to a counsellor directly.</p>
       <div class="cta-row" style="justify-content:center; margin-top:1.5rem;">
         <button type="button" class="btn btn-primary" data-modal-trigger>Enquire Now</button>
       </div>
@@ -1123,7 +1136,7 @@ directory_main = f"""
 write("colleges", page(
     "colleges",
     "College Directory — Engineering, Management, Medical, Law & Study Abroad | DegreeLelo",
-    f"Browse {len(_colleges)} institutions for Engineering, Management, Medical, Law, Design, and Study Abroad admissions. Filter by state, category, or course, and search by name.",
+    f"Browse {len(_colleges)} institutions for Engineering, Management, Medical, Law, Design, and Study Abroad admissions. Filter by state, country, category, or course, and search by name.",
     "colleges",
     directory_main,
 ))
