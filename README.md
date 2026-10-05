@@ -61,6 +61,10 @@ function doPost(e) {
 
 **This export does not auto-update.** If the source spreadsheet changes, `data/colleges.json` needs to be regenerated and re-committed by hand — there's no live sync. The extraction script itself isn't part of this repo (consistent with `build.py` for the HTML pages, kept locally during development, not deployed).
 
+## Brand mark
+
+The logo is a "Compass Pin" &mdash; a location pin with a graduation cap where the lens would be, standing for "the right place of learning, located." It replaced a plain "DL" initials badge. It's inline SVG, defined once in `build.py` as `BRAND_MARK_HEADER` (navy pin on blue, for the header on light backgrounds) and `BRAND_MARK_FOOTER` (navy pin on amber, matching the footer's existing accent-swap convention) and written into every page's header/footer by the generator &mdash; there's no separate logo image file for those two spots. The favicon, apple-touch-icon, and `assets/icon-192.png`/`icon-512.png` are static PNG/ICO exports of the same mark (header colorway) at fixed sizes, rendered once from the SVG and committed as binary files. If the mark ever changes, regenerate them by rendering `BRAND_MARK_HEADER`'s SVG at 1024&times;1024 (e.g. with a headless browser screenshot) and downscaling to 16/32/180/192/512px plus a multi-size `.ico` &mdash; there's no automated pipeline for that, same as `data/colleges.json`.
+
 ## Before going live
 
 **WhatsApp Business number** — the "Chat with us on WhatsApp" button is already wired to the real number. If it ever needs to change, it's declared once, at the top of `js/main.js` (`DEGREELELO_CONFIG.whatsappNumber`).
