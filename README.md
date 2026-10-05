@@ -23,7 +23,7 @@ Each field's `name` attribute is still the original Google Form's `entry.XXXXXXX
 | How did you hear about us | `entry.1372671113` |
 
 The submission endpoint (in the `<form action>` in every page's modal markup) is the deployed Apps Script Web App URL, currently:
-`https://script.google.com/macros/s/AKfycbw0VbFqKKRZM7UBFx3DDR-11UU6cioS4jWPLb7XWKcc7O0TZ_B11D2T6no9HRSJFIPQWw/exec`
+`https://script.google.com/macros/s/AKfycbw2z4RT5MMJPI4Qezyag0n5FzWLpuNx-UpwJNKAoDnhxuodqujglJ0FBM9W3WUcjRdp/exec`
 
 The script itself lives in the target Google Sheet's **Extensions → Apps Script** editor (not in this repo, since Apps Script projects aren't files Git can track) — roughly:
 
