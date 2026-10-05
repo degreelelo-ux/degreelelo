@@ -59,7 +59,7 @@ function doPost(e) {
 - Any spreadsheet cell reading literally "Needs Verification" (or a longer sentence starting with it, e.g. "Needs Verification - no reliable figure found") was dropped rather than shown — a field with no real value is simply absent from that college's card, never replaced with a placeholder.
 - Fee ranges, entrance exams, and approved programmes were parsed out of each row's free-text "Important Notes" field via regex (the structured fee/exam columns in the source were themselves mostly unfilled) — see the extraction script's `parse_notes()` if this needs re-running.
 
-**This export does not auto-update.** If the source spreadsheet changes, `data/colleges.json` needs to be regenerated and re-committed by hand — there's no live sync. The extraction script itself isn't part of this repo (consistent with `build.py` for the HTML pages, kept locally during development, not deployed).
+**This export does not auto-update.** If the source spreadsheet changes, regenerate it with `python3 dev/build_colleges_json.py /path/to/Master_Database.xlsx` (writes `data/colleges.json`), then re-run `python3 dev/build.py` and commit both the regenerated `colleges.html` and the new `data/colleges.json` — there's no live sync. If the record count here ever looks off against the live spreadsheet, that's the first thing to check: it usually means the spreadsheet changed after the last export, not a bug in the extraction logic.
 
 ## Brand mark
 
@@ -100,12 +100,23 @@ js/main.js                  Mobile nav, enquiry modal (Apps Script submit), pred
 data/colleges.json         College Directory data (see "College Directory" section below)
 assets/                     Favicon, apple-touch-icon, OG/Twitter card image
 robots.txt, sitemap.xml    SEO basics
+dev/                        Generator scripts (not part of the deployed site — see "Generator scripts" below)
 ```
+
+## Generator scripts
+
+Everything under `dev/` is a local tool for maintaining the site — none of it is linked from or served by any page, and GitHub Pages ignores it.
+
+- **`dev/build.py`** generates all `.html` pages from the shared `page()`/`header()`/`footer()` templates and the content defined inline in the script. Run `python3 dev/build.py` after any content or structural change, then commit the regenerated `.html` files alongside your change to `build.py` itself. Needs `dev/icons.py` (a sibling import) and `openpyxl` only if you also regenerate the College Directory data in the same session. `ASSET_VERSION` near the top cache-busts `css/style.css` and `js/main.js` — bump it whenever either file's content changes, then re-run the script so all 15 pages pick up the new version string.
+- **`dev/icons.py`** is the hand-authored inline-SVG icon set (`ICON_CAP`, `ICON_GLOBE`, etc.) that `build.py` imports — no external icon library.
+- **`dev/build_colleges_json.py`** regenerates `data/colleges.json` from a Master Database spreadsheet export: `python3 dev/build_colleges_json.py /path/to/Master_Database.xlsx`. See the "College Directory" section above for what it does and doesn't infer.
+
+These three files are committed specifically so a fresh contributor (human or AI) can maintain the site without first having to reverse-engineer its structure from the rendered HTML, or without access to a prior session's local files that were never checked in.
 
 ## Notes
 
 - The College Predictor only gives route guidance for Engineering/Management in Karnataka and Maharashtra, per the product's current verified data. Every other combination (including Medical anywhere, and Study Abroad) is intentionally routed to "a counsellor will personally review your profile" — this is deliberate, not a gap to fill in with a fake match.
 - Canonical URLs, Open Graph tags, and `sitemap.xml` currently point at `https://degreelelo-ux.github.io/degreelelo` (the default GitHub Pages URL for this repo). If you attach a custom domain, update those in bulk (they're the `SITE_URL` constant equivalent — a simple find-and-replace across the HTML files, `robots.txt`, and `sitemap.xml`).
-- No JS framework, no build step. Pages are static HTML; the shared header/footer/modal markup is duplicated per page by design (kept in sync via a local generation script during development, not part of the deployed site).
+- No JS framework, no build step at deploy time. Pages are static HTML; the shared header/footer/modal markup is duplicated per page by design, kept in sync via `dev/build.py` (not part of the deployed site — see "Generator scripts" below).
 - The About page's "What We Help With" section lists DegreeLelo's services (counselling, admissions guidance, test prep, scholarships, visa/documentation support, etc.) in the site's own voice, including foreign-admission-adjacent services (foreign university admissions, student visa & documentation) that `study-abroad.html` now explains in more detail.
 - **`css/style.css` and `js/main.js` are referenced with a `?v=N` query string** (e.g. `js/main.js?v=2`) on every page, identical across all 15. This is deliberate cache-busting — GitHub Pages' CDN and browsers can hold onto an old copy of these files for a while, which previously caused a live page to keep running stale JS after a deploy (a form submit silently misbehaved because the HTML had updated but the JS hadn't). **Whenever you edit either file, bump the `v=` number on all 15 pages** (a single find-and-replace) so every visitor is guaranteed to fetch the new version rather than a cached one.
