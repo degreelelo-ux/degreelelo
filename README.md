@@ -43,7 +43,7 @@ function doPost(e) {
 - The request is sent as `FormData` (not JSON) deliberately — that keeps it a CORS "simple request" that skips a preflight `OPTIONS` call, which Apps Script Web Apps don't handle.
 - Redeploying the Apps Script (Deploy → Manage deployments → edit → new version) is required after any script code change for the live `/exec` URL to pick it up — saving alone isn't enough.
 - If the endpoint URL, the script's deployment, or its "Who has access" setting ever changes, update the `<form action>` value across all pages (it's identical on every page, so a single find-and-replace works) — currently only editable directly, no shared JS config constant for it.
-- **Confirmed working end-to-end**: request shape verified (correct field mapping, correct content type), and — unlike the earlier Form-based attempt — a genuine network failure was verified to correctly show the error/WhatsApp message instead of silently claiming success.
+- **Confirmed working end-to-end**: request shape verified (correct field mapping, correct content type), a genuine network failure was verified to correctly show the error/WhatsApp message instead of silently claiming success (unlike the earlier Form-based attempt), and a real test submission has been confirmed to land as a new row in the target Sheet.
 
 ## College Directory
 
