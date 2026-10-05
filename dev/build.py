@@ -25,7 +25,7 @@ OUT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Bump this on every css/style.css or js/main.js content change so browsers
 # and the GitHub Pages CDN are forced to fetch the new file instead of
 # serving a stale cached copy.
-ASSET_VERSION = "5"
+ASSET_VERSION = "6"
 
 # --------------------------------------------------------------------------
 # Shared fragments
@@ -406,7 +406,7 @@ home_main = f"""
       <article class="card">
         <div class="card-icon">{ICON_GLOBE}</div>
         <h3>Study Abroad</h3>
-        <p>USA, UK, Canada, Australia &amp; Germany &mdash; application systems, tests, and visas explained plainly.</p>
+        <p>UK, Europe, the Commonwealth &amp; Asia &mdash; application systems, tests, and visas explained plainly.</p>
         <a href="study-abroad.html" class="card-link">Explore Study Abroad {ICON_CHEVRON_RIGHT}</a>
       </article>
     </div>
@@ -520,7 +520,7 @@ about_main = f"""
       <article class="card">
         <div class="card-icon">{ICON_GLOBE}</div>
         <h3>Foreign University Admissions</h3>
-        <p>Support exploring universities in the USA, UK, Canada, Australia, and Germany, including how each country's application process and requirements differ.</p>
+        <p>Support exploring universities across the UK, Europe, the Commonwealth, and Asia, including how each country's application process and requirements differ.</p>
       </article>
       <article class="card">
         <div class="card-icon">{ICON_SHIELD}</div>
@@ -787,7 +787,7 @@ study_abroad_main = f"""
 <div class="page-header">
   <div class="container">
     <span class="eyebrow">Study Abroad</span>
-    <h1>Studying Abroad: USA, UK, Canada, Australia &amp; Germany</h1>
+    <h1>Studying Abroad: UK, Europe, the Commonwealth &amp; Asia</h1>
     <p class="lede">Admission abroad runs through a different system in every country &mdash; different tests, different application platforms, different deadlines. Here's what each one actually involves, before you commit time or money to any of them.</p>
   </div>
 </div>
@@ -798,24 +798,13 @@ study_abroad_main = f"""
       {ICON_INFO}
       <div>
         <strong>Important note</strong>
-        <p>We don't yet carry verified, institution-specific listings for Study Abroad in our College Directory, the way we do for Engineering, Management, and Medical. Requirements below differ by country and change often, so a counsellor reviews your profile personally rather than us auto-generating a college list. We never guarantee admission or bypass a university's own eligibility and visa rules.</p>
+        <p>The institutions in our Study Abroad directory come from our partner network and haven't yet been independently verified &mdash; treat fee ranges and entry requirements as a starting point, not a final number, and a counsellor confirms current details with you before you apply anywhere. We never guarantee admission or bypass a university's own eligibility and visa rules.</p>
       </div>
     </div>
 
     <div class="section-head">
       <h2>Understanding your pathways</h2>
       <p>Which system matters most for you depends on your target country, your course level, and your timeline. We help you understand all of it before you apply anywhere.</p>
-    </div>
-
-    <div class="pathway">
-      <span class="pathway-tag">United States</span>
-      <h3>Mostly direct, university-by-university applications</h3>
-      <p>Undergraduate admission in the US is usually direct to each university (often via the Common Application or a university's own portal), evaluated holistically alongside test scores, essays, and recommendations. Postgraduate admission typically runs directly through each university's own department, with no shared national process.</p>
-      <ul>
-        <li>Undergraduate applicants are commonly asked for SAT or ACT scores, plus an English-proficiency score (IELTS or TOEFL) if you weren't educated in English.</li>
-        <li>Postgraduate applicants are often asked for GRE (general programmes) or GMAT (business programmes), alongside an English-proficiency score.</li>
-        <li>Each university sets its own deadlines and requirements &mdash; there's no single national counselling process like JEE or NEET.</li>
-      </ul>
     </div>
 
     <div class="pathway">
@@ -830,15 +819,39 @@ study_abroad_main = f"""
     </div>
 
     <div class="pathway">
-      <span class="pathway-tag">Canada, Australia &amp; Germany</span>
+      <span class="pathway-tag">Canada, Australia &amp; New Zealand</span>
       <h3>Direct-to-university systems, each with its own rules</h3>
-      <p>These work similarly to the US in that you generally apply directly to each university, but intakes, test requirements, and visa processes differ meaningfully by country.</p>
+      <p>You generally apply directly to each university, but intakes, test requirements, and visa processes differ meaningfully by country.</p>
       <ul>
-        <li>An English-proficiency score (IELTS or TOEFL) is required almost everywhere; some German programmes also require German-language proficiency.</li>
+        <li>An English-proficiency score (IELTS or TOEFL) is required almost everywhere.</li>
         <li>Intake seasons and deadlines vary by country and by university &mdash; we help you track the ones relevant to you.</li>
         <li>Visa and proof-of-funds requirements differ significantly by country; we walk you through what's genuinely needed, not a generic checklist.</li>
       </ul>
     </div>
+
+    <div class="pathway">
+      <span class="pathway-tag">Europe &mdash; Cyprus, Hungary, Ireland, Italy, Malta, Spain &amp; Sweden</span>
+      <h3>Direct-to-university, often with English-medium programmes</h3>
+      <p>Most European universities take applications directly, with a growing number of programmes taught entirely in English even outside English-speaking countries. Tuition and living costs vary widely by country and by whether a programme is public or private.</p>
+      <ul>
+        <li>An English-proficiency score (IELTS or TOEFL) is required for English-medium programmes; some countries' programmes expect the local language instead.</li>
+        <li>Visa requirements and processing times differ significantly across these countries &mdash; what works for one doesn't automatically apply to another.</li>
+        <li>We help you confirm which specific programmes at your target universities are genuinely taught in English before you apply.</li>
+      </ul>
+    </div>
+
+    <div class="pathway">
+      <span class="pathway-tag">Asia &amp; the Middle East &mdash; Japan, Malaysia &amp; UAE</span>
+      <h3>A mix of local universities and international branch campuses</h3>
+      <p>Malaysia and the UAE both host branch campuses of UK, Australian, and other international universities alongside local institutions, often at a lower cost than studying at the main campus. Japan's universities run their own direct admission process, with some programmes taught in English and others requiring Japanese proficiency.</p>
+      <ul>
+        <li>At a branch campus, confirm exactly which degree you'd receive and from which institution &mdash; this varies by programme and is worth verifying directly.</li>
+        <li>An English-proficiency score (IELTS or TOEFL) covers most English-medium programmes in this group; Japanese-medium programmes are a separate requirement.</li>
+        <li>Cost of living and visa rules differ significantly across these three &mdash; we help you compare what's actually relevant to your budget.</li>
+      </ul>
+    </div>
+
+    <p class="mt-8"><a href="colleges.html?category=Study%20Abroad" class="text-link">Browse Study Abroad institutions in our directory &rarr;</a></p>
   </div>
 </section>
 
@@ -856,7 +869,7 @@ study_abroad_main = f"""
         <li>Academic transcripts and certificates, often with official translations.</li>
         <li>A statement of purpose or personal statement, specific to each application.</li>
         <li>Letters of recommendation from teachers or employers.</li>
-        <li>Standardised test scores where required (SAT/ACT, GRE/GMAT, IELTS/TOEFL) &mdash; see the pathways above for which apply to you.</li>
+        <li>Standardised test scores where required (IELTS/TOEFL, and programme-specific exams) &mdash; see the pathways above for which apply to you.</li>
         <li>Proof of funds and visa documentation, once you have an offer.</li>
       </ul>
     </div>
@@ -870,8 +883,8 @@ study_abroad_main = f"""
 
 write("study-abroad", page(
     "study-abroad",
-    "Study Abroad Guidance: USA, UK, Canada, Australia & Germany | DegreeLelo",
-    "Understand how admission works for studying abroad — UCAS, the Common Application, SAT/ACT, IELTS/TOEFL, GRE/GMAT, and visa requirements — explained plainly. Honest guidance from DegreeLelo, no guaranteed outcomes.",
+    "Study Abroad Guidance: UK, Europe, Commonwealth & Asia | DegreeLelo",
+    "Understand how admission works for studying abroad — UCAS, direct-to-university systems, IELTS/TOEFL, branch campuses, and visa requirements — explained plainly. Honest guidance from DegreeLelo, no guaranteed outcomes.",
     "study-abroad",
     study_abroad_main,
 ))
@@ -1041,11 +1054,17 @@ write("college-predictor", page(
 with open(os.path.join(OUT_DIR, "data", "colleges.json")) as _f:
     _colleges = json.load(_f)
 
-_states = sorted({c["state"] for c in _colleges if c.get("state")})
+# State and Country are split by category rather than a hardcoded country
+# list — "Study Abroad" is the one category whose "state" field actually
+# holds a country name (the source spreadsheet reuses that column for
+# both), so every other category's values are genuinely Indian states.
+_states = sorted({c["state"] for c in _colleges if c.get("state") and c["category"] != "Study Abroad"})
+_countries = sorted({c["state"] for c in _colleges if c.get("state") and c["category"] == "Study Abroad"})
 _categories = sorted({c["category"] for c in _colleges})
 _courses = sorted({course for c in _colleges for course in c.get("courses", [])})
 
 _state_options = "\n".join(f'            <option value="{s}">{s}</option>' for s in _states)
+_country_options = "\n".join(f'            <option value="{c}">{c}</option>' for c in _countries)
 _category_options = "\n".join(f'            <option value="{c}">{c}</option>' for c in _categories)
 _course_options = "\n".join(f'            <option value="{c}">{c}</option>' for c in _courses)
 
@@ -1054,7 +1073,7 @@ directory_main = f"""
   <div class="container">
     <span class="eyebrow">College Directory</span>
     <h1>College Directory</h1>
-    <p class="lede">{len(_colleges)} institutions across Engineering, Management, Medical, Law, and Design, compiled from our own verified research and our partner counselling network. Filter by state, category, or course, or search by name.</p>
+    <p class="lede">{len(_colleges)} institutions across Engineering, Management, Medical, Law, Design, and Study Abroad, compiled from our own verified research and our partner counselling network. Filter by state, country, category, or course, or search by name.</p>
   </div>
 </div>
 
@@ -1070,6 +1089,13 @@ directory_main = f"""
         <select id="dir-state">
           <option value="">All states</option>
 {_state_options}
+        </select>
+      </div>
+      <div class="field">
+        <label for="dir-country">Country</label>
+        <select id="dir-country">
+          <option value="">All countries</option>
+{_country_options}
         </select>
       </div>
       <div class="field">
@@ -1094,7 +1120,7 @@ directory_main = f"""
     <div id="directory-empty" class="empty-state" hidden>
       {ICON_INFO}
       <h2 style="font-size:var(--text-xl);">No colleges match those filters</h2>
-      <p>Try a different state, category, or search term &mdash; or talk to a counsellor directly.</p>
+      <p>Try a different state, country, category, or search term &mdash; or talk to a counsellor directly.</p>
       <div class="cta-row" style="justify-content:center; margin-top:1.5rem;">
         <button type="button" class="btn btn-primary" data-modal-trigger>Enquire Now</button>
       </div>
@@ -1109,8 +1135,8 @@ directory_main = f"""
 
 write("colleges", page(
     "colleges",
-    "College Directory — Engineering, Management, Medical & Law Colleges | DegreeLelo",
-    f"Browse {len(_colleges)} colleges across India for Engineering, Management, Medical, Law, and Design admissions. Filter by state and category, with verified and partner-network institutions clearly marked.",
+    "College Directory — Engineering, Management, Medical, Law & Study Abroad | DegreeLelo",
+    f"Browse {len(_colleges)} institutions for Engineering, Management, Medical, Law, Design, and Study Abroad admissions. Filter by state, country, category, or course, and search by name.",
     "colleges",
     directory_main,
 ))
@@ -1386,7 +1412,7 @@ faqs = [
     ("Do you guarantee a seat at a particular college?",
      "No. We do not guarantee admission to any institution, and we never offer to bypass eligibility rules. Final admission decisions always rest with the institutions and the relevant exam or counselling authority &mdash; our role is to guide you to the best genuinely available options."),
     ("Which programs does DegreeLelo currently support?",
-     "We currently guide students through Engineering, Management, Medical (NEET counselling), Study Abroad (USA, UK, Canada, Australia &amp; Germany), and Distance &amp; Open Education admissions."),
+     "We currently guide students through Engineering, Management, Medical (NEET counselling), Study Abroad (UK, Europe, the Commonwealth &amp; Asia), and Distance &amp; Open Education admissions."),
 ]
 
 faq_items = "\n".join(f"""    <details class="faq-item">

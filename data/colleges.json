@@ -4725,5 +4725,1130 @@
    "M.Pharm"
   ],
   "verified": false
+ },
+ {
+  "id": "ABROAD001",
+  "name": "University of New South Wales",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "45k-58k (AUD/yr)",
+  "entrance_exam": "75-85%, IELTS 6.5-7",
+  "verified": false
+ },
+ {
+  "id": "ABROAD002",
+  "name": "University of Queensland",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "42k-55k (AUD/yr)",
+  "entrance_exam": "70-80%, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD003",
+  "name": "University of Western Australia",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "38k-48k (AUD/yr)",
+  "entrance_exam": "70%+, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD004",
+  "name": "Monash University",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "45k-60k (AUD/yr)",
+  "entrance_exam": "75%+, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD005",
+  "name": "University of Adelaide",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "40k-52k (AUD/yr)",
+  "entrance_exam": "70%+, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD006",
+  "name": "University of Technology Sydney",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "38k-50k (AUD/yr)",
+  "entrance_exam": "70%+, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD007",
+  "name": "University of Wollongong",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "32k-42k (AUD/yr)",
+  "entrance_exam": "65-70%, IELTS 6",
+  "verified": false
+ },
+ {
+  "id": "ABROAD008",
+  "name": "University of Newcastle",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "35k-48k (AUD/yr)",
+  "entrance_exam": "70%, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD009",
+  "name": "Macquarie University",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "38k-48k (AUD/yr)",
+  "entrance_exam": "70%, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD010",
+  "name": "Queensland University of Technology",
+  "state": "Australia",
+  "category": "Study Abroad",
+  "fee": "35k-45k (AUD/yr)",
+  "entrance_exam": "70%, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD011",
+  "name": "University of Alberta",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "28k-38k (CAD/yr)",
+  "entrance_exam": "70-75%, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD012",
+  "name": "University of Waterloo",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "45k-60k (CAD/yr)",
+  "entrance_exam": "80%+, IELTS 6.5-7",
+  "verified": false
+ },
+ {
+  "id": "ABROAD013",
+  "name": "Queen's University",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "40k-55k (CAD/yr)",
+  "entrance_exam": "75%+, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD014",
+  "name": "Univ. of Calgary (Cont. Ed.)",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "12k-20k (CAD/yr)",
+  "entrance_exam": "Degree/Diploma",
+  "verified": false
+ },
+ {
+  "id": "ABROAD015",
+  "name": "Dalhousie University",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "25k-35k (CAD/yr)",
+  "entrance_exam": "70%, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD016",
+  "name": "University of Ottawa",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "30k-45k (CAD/yr)",
+  "entrance_exam": "70-75%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD017",
+  "name": "University of Victoria",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "28k-38k (CAD/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD018",
+  "name": "York University",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "30k-45k (CAD/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD019",
+  "name": "Carleton University",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "28k-40k (CAD/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD020",
+  "name": "Memorial Univ. of Newfoundland",
+  "state": "Canada",
+  "category": "Study Abroad",
+  "fee": "12k-20k (CAD/yr)",
+  "entrance_exam": "65-70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD021",
+  "name": "University of Nicosia",
+  "state": "Cyprus",
+  "category": "Study Abroad",
+  "fee": "8k-18k (EUR/yr)",
+  "entrance_exam": "60%+, IELTS 6",
+  "verified": false
+ },
+ {
+  "id": "ABROAD022",
+  "name": "University of Limassol",
+  "state": "Cyprus",
+  "category": "Study Abroad",
+  "fee": "7k-12k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD023",
+  "name": "Univ. of Nicosia Med. School",
+  "state": "Cyprus",
+  "category": "Study Abroad",
+  "fee": "18k-22k (EUR/yr)",
+  "entrance_exam": "PCB + NEET",
+  "verified": false
+ },
+ {
+  "id": "ABROAD024",
+  "name": "Univ. of Central Lancashire (Cyprus)",
+  "state": "Cyprus",
+  "category": "Study Abroad",
+  "fee": "9k-15k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD025",
+  "name": "Frederick University",
+  "state": "Cyprus",
+  "category": "Study Abroad",
+  "fee": "7k-12k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD026",
+  "name": "Neapolis University Pafos",
+  "state": "Cyprus",
+  "category": "Study Abroad",
+  "fee": "7k-13k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD027",
+  "name": "KES College Cyprus",
+  "state": "Cyprus",
+  "category": "Study Abroad",
+  "fee": "6k-9k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD028",
+  "name": "University of Debrecen",
+  "state": "Hungary",
+  "category": "Study Abroad",
+  "fee": "6k-16k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD029",
+  "name": "University of Pécs",
+  "state": "Hungary",
+  "category": "Study Abroad",
+  "fee": "6k-15k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD030",
+  "name": "Budapest Univ. of Econ/Bus",
+  "state": "Hungary",
+  "category": "Study Abroad",
+  "fee": "6k-12k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD031",
+  "name": "Budapest Metropolitan Univ.",
+  "state": "Hungary",
+  "category": "Study Abroad",
+  "fee": "6k-10k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD032",
+  "name": "IBS International Business School",
+  "state": "Hungary",
+  "category": "Study Abroad",
+  "fee": "7k-12k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD033",
+  "name": "Trinity College Dublin",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "22k-40k (EUR/yr)",
+  "entrance_exam": "80%+, IELTS 6.5",
+  "verified": false
+ },
+ {
+  "id": "ABROAD034",
+  "name": "University College Dublin",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "20k-38k (EUR/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD035",
+  "name": "University of Galway",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "18k-30k (EUR/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD036",
+  "name": "University College Cork",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "18k-28k (EUR/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD037",
+  "name": "University of Limerick",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "15k-25k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD038",
+  "name": "Dublin City University",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "15k-25k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD039",
+  "name": "Maynooth University",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "14k-24k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD040",
+  "name": "Technological Univ. Dublin",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "14k-22k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD041",
+  "name": "Munster Technological Univ.",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "13k-22k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD042",
+  "name": "RCSI Univ. of Health Sciences",
+  "state": "Ireland",
+  "category": "Study Abroad",
+  "fee": "35k-55k (EUR/yr)",
+  "entrance_exam": "PCB + NEET",
+  "verified": false
+ },
+ {
+  "id": "ABROAD043",
+  "name": "University of Padua",
+  "state": "Italy",
+  "category": "Study Abroad",
+  "fee": "2k-4k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD044",
+  "name": "LUISS Guido Carli",
+  "state": "Italy",
+  "category": "Study Abroad",
+  "fee": "15k-22k (EUR/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD045",
+  "name": "Guglielmo Marconi University",
+  "state": "Italy",
+  "category": "Study Abroad",
+  "fee": "4k-10k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD046",
+  "name": "Istituto Marangoni",
+  "state": "Italy",
+  "category": "Study Abroad",
+  "fee": "18k-28k (EUR/yr)",
+  "entrance_exam": "Portfolio",
+  "verified": false
+ },
+ {
+  "id": "ABROAD047",
+  "name": "NABA",
+  "state": "Italy",
+  "category": "Study Abroad",
+  "fee": "17k-25k (EUR/yr)",
+  "entrance_exam": "Portfolio",
+  "verified": false
+ },
+ {
+  "id": "ABROAD048",
+  "name": "Domus Academy",
+  "state": "Italy",
+  "category": "Study Abroad",
+  "fee": "20k-30k (EUR/yr)",
+  "entrance_exam": "Portfolio",
+  "verified": false
+ },
+ {
+  "id": "ABROAD049",
+  "name": "Marist University Florence",
+  "state": "Italy",
+  "category": "Study Abroad",
+  "fee": "20k-35k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD050",
+  "name": "Istituto Europeo di Design",
+  "state": "Italy",
+  "category": "Study Abroad",
+  "fee": "16k-26k (EUR/yr)",
+  "entrance_exam": "Portfolio",
+  "verified": false
+ },
+ {
+  "id": "ABROAD051",
+  "name": "Polimi GS of Management",
+  "state": "Italy",
+  "category": "Study Abroad",
+  "fee": "18k-35k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD052",
+  "name": "Yamanashi Gakuin Univ.",
+  "state": "Japan",
+  "category": "Study Abroad",
+  "fee": "1-1.5M (JPY/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD053",
+  "name": "Tokyo International Univ.",
+  "state": "Japan",
+  "category": "Study Abroad",
+  "fee": "1-1.5M (JPY/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD054",
+  "name": "Lakeland University Japan",
+  "state": "Japan",
+  "category": "Study Abroad",
+  "fee": "1.2-1.8M (JPY/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD055",
+  "name": "Kudan Inst. of Jap. Language",
+  "state": "Japan",
+  "category": "Study Abroad",
+  "fee": "0.8-1.2M (JPY/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD056",
+  "name": "Monash University Malaysia",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "9k-18k (USD/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD057",
+  "name": "University of Southampton Malaysia",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "8k-15k (USD/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD058",
+  "name": "University of Nottingham Malaysia",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "9k-17k (USD/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD059",
+  "name": "University of Wollongong Malaysia",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "8k-14k (USD/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD060",
+  "name": "Heriot-Watt University Malaysia",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "9k-16k (USD/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD061",
+  "name": "Taylor's University",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "8k-14k (USD/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD062",
+  "name": "Swinburne University Malaysia",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "8k-15k (USD/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD063",
+  "name": "Sunway University",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "7k-13k (USD/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD064",
+  "name": "UCSI University",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "8k-16k (USD/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD065",
+  "name": "Asia Pacific University",
+  "state": "Malaysia",
+  "category": "Study Abroad",
+  "fee": "7k-12k (USD/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD066",
+  "name": "Queen Mary Univ. of London Malta",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "35k-45k (EUR/yr)",
+  "entrance_exam": "PCB + NEET",
+  "verified": false
+ },
+ {
+  "id": "ABROAD067",
+  "name": "IDEA Academy",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "6k-10k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD068",
+  "name": "Ascencia Business School",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "6k-9k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD069",
+  "name": "London School of Commerce Malta",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "6k-10k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD070",
+  "name": "GBS Malta",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "6k-9k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD071",
+  "name": "Saint Martin's Institute",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "6k-8k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD072",
+  "name": "Global College Malta",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "6k-9k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD073",
+  "name": "Learnkey Training Institute",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "4k-7k (EUR/yr)",
+  "entrance_exam": "50%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD074",
+  "name": "Yhank Institute",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "5k-8k (EUR/yr)",
+  "entrance_exam": "50%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD075",
+  "name": "European Global Inst. of Tech.",
+  "state": "Malta",
+  "category": "Study Abroad",
+  "fee": "6k-9k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD076",
+  "name": "University of Auckland",
+  "state": "New Zealand",
+  "category": "Study Abroad",
+  "fee": "32k-45k (NZD/yr)",
+  "entrance_exam": "75%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD077",
+  "name": "University of Otago",
+  "state": "New Zealand",
+  "category": "Study Abroad",
+  "fee": "30k-42k (NZD/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD078",
+  "name": "Victoria University of Wellington",
+  "state": "New Zealand",
+  "category": "Study Abroad",
+  "fee": "28k-40k (NZD/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD079",
+  "name": "University of Canterbury",
+  "state": "New Zealand",
+  "category": "Study Abroad",
+  "fee": "28k-40k (NZD/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD080",
+  "name": "Massey University",
+  "state": "New Zealand",
+  "category": "Study Abroad",
+  "fee": "25k-35k (NZD/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD081",
+  "name": "University of Waikato",
+  "state": "New Zealand",
+  "category": "Study Abroad",
+  "fee": "25k-35k (NZD/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD082",
+  "name": "Lincoln University",
+  "state": "New Zealand",
+  "category": "Study Abroad",
+  "fee": "25k-35k (NZD/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD083",
+  "name": "Auckland University of Tech.",
+  "state": "New Zealand",
+  "category": "Study Abroad",
+  "fee": "28k-38k (NZD/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD084",
+  "name": "C3S Business School",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "5k-8k (EUR/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD085",
+  "name": "Barcelona Technology School",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "8k-15k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD086",
+  "name": "IED Barcelona",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "15k-25k (EUR/yr)",
+  "entrance_exam": "Portfolio",
+  "verified": false
+ },
+ {
+  "id": "ABROAD087",
+  "name": "Schiller International Univ. Madrid",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "18k-30k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD088",
+  "name": "LCI Barcelona",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "10k-18k (EUR/yr)",
+  "entrance_exam": "Portfolio",
+  "verified": false
+ },
+ {
+  "id": "ABROAD089",
+  "name": "Swiss Business School Barcelona",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "7k-12k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD090",
+  "name": "ENAE Business School",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "7k-12k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD091",
+  "name": "Universidad Europea",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "10k-22k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD092",
+  "name": "EU Business School Barcelona",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "13k-20k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD093",
+  "name": "Geneva Business School Barcelona",
+  "state": "Spain",
+  "category": "Study Abroad",
+  "fee": "9k-15k (EUR/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD094",
+  "name": "Linnaeus University",
+  "state": "Sweden",
+  "category": "Study Abroad",
+  "fee": "80k-140k (SEK/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD095",
+  "name": "Karlstad University",
+  "state": "Sweden",
+  "category": "Study Abroad",
+  "fee": "90k-140k (SEK/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD096",
+  "name": "Halmstad University",
+  "state": "Sweden",
+  "category": "Study Abroad",
+  "fee": "90k-140k (SEK/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD097",
+  "name": "Dalarna University",
+  "state": "Sweden",
+  "category": "Study Abroad",
+  "fee": "70k-120k (SEK/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD098",
+  "name": "University of Skövde",
+  "state": "Sweden",
+  "category": "Study Abroad",
+  "fee": "90k-140k (SEK/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD099",
+  "name": "Kristianstad University",
+  "state": "Sweden",
+  "category": "Study Abroad",
+  "fee": "90k-140k (SEK/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD100",
+  "name": "University West",
+  "state": "Sweden",
+  "category": "Study Abroad",
+  "fee": "90k-140k (SEK/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD101",
+  "name": "Jönköping University",
+  "state": "Sweden",
+  "category": "Study Abroad",
+  "fee": "120k-180k (SEK/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD102",
+  "name": "American University of Sharjah",
+  "state": "UAE",
+  "category": "Study Abroad",
+  "fee": "95k-105k (AED/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD103",
+  "name": "American University in Dubai",
+  "state": "UAE",
+  "category": "Study Abroad",
+  "fee": "85k-95k (AED/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD104",
+  "name": "American Univ. in the Emirates",
+  "state": "UAE",
+  "category": "Study Abroad",
+  "fee": "45k-65k (AED/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD105",
+  "name": "RIT Dubai",
+  "state": "UAE",
+  "category": "Study Abroad",
+  "fee": "75k-95k (AED/yr)",
+  "entrance_exam": "70%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD106",
+  "name": "American Univ. of Ras Al Khaimah",
+  "state": "UAE",
+  "category": "Study Abroad",
+  "fee": "55k-75k (AED/yr)",
+  "entrance_exam": "65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD107",
+  "name": "Hult Int. Business School Dubai",
+  "state": "UAE",
+  "category": "Study Abroad",
+  "fee": "90k-150k (AED/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD108",
+  "name": "Walsh College UAE",
+  "state": "UAE",
+  "category": "Study Abroad",
+  "fee": "45k-70k (AED/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD109",
+  "name": "Int. American University",
+  "state": "UAE",
+  "category": "Study Abroad",
+  "fee": "40k-60k (AED/yr)",
+  "entrance_exam": "55%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD110",
+  "name": "Northwood University RAK",
+  "state": "UAE",
+  "category": "Study Abroad",
+  "fee": "45k-70k (AED/yr)",
+  "entrance_exam": "60%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD111",
+  "name": "University of Bristol",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD112",
+  "name": "University of Birmingham",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD113",
+  "name": "Cardiff University",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD114",
+  "name": "Durham University",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD115",
+  "name": "University of Exeter",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD116",
+  "name": "University of Glasgow",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD117",
+  "name": "University of Leeds",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD118",
+  "name": "University of Liverpool",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD119",
+  "name": "Newcastle University",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD120",
+  "name": "University of Nottingham",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD121",
+  "name": "Queen Mary University of London",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD122",
+  "name": "Queen's University Belfast",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD123",
+  "name": "University of Sheffield",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD124",
+  "name": "University of Southampton",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
+ },
+ {
+  "id": "ABROAD125",
+  "name": "University of York",
+  "state": "UK",
+  "category": "Study Abroad",
+  "fee": "£22k-£32k (partner-quoted, NOT independently verified)",
+  "entrance_exam": "60-65%",
+  "verified": false
  }
 ]

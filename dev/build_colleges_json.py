@@ -81,6 +81,27 @@ NOTES_FEE_RE = re.compile(r"Avg fees/yr\s*(₹.+?)\s*(?:\(partner-quoted|$)")
 NOTES_APPROVALS_RE = re.compile(r"Approvals/programmes:\s*(.+?)(?:\.\s*Entrance route:|$)")
 NOTES_ENTRANCE_RE = re.compile(r"Entrance route:\s*(.+?)\.?\s*$")
 
+# Study Abroad institutions' "Important Notes" use a different, non-Indian
+# format — no "Avg fees/yr ₹", no "Approvals/programmes:", no "Entrance
+# route:" — e.g. "Country: Australia. Entry requirement: 75-85%, IELTS
+# 6.5-7. Specialties: Engineering, Business, AI, Architecture. Fees/yr:
+# 45k-58k (AUD/yr) (partner-quoted, NOT independently verified). Intake:
+# February, September." These two patterns extract the fee and the entry
+# requirement from that format. The fee pattern stops after the first
+# parenthetical (the currency/unit) and deliberately excludes the second
+# "(partner-quoted, NOT independently verified)" parenthetical — that
+# caveat stays in the internal data, not on the public card, matching how
+# NOTES_FEE_RE already excludes "(partner-quoted" for Indian institutions.
+# The entry-requirement pattern anchors on the literal ". Specialties:"
+# marker rather than a bare period, for the same reason NOTES_APPROVALS_RE
+# does: "IELTS 6.5-7" contains a period that would otherwise truncate it.
+# There's no Study Abroad equivalent of "Approvals/programmes" (degree
+# tokens), so courses correctly stays empty for these institutions rather
+# than guessing from "Specialties" (a list of broad subject areas, not
+# degree names).
+STUDY_ABROAD_FEE_RE = re.compile(r"Fees/yr:\s*([^(]+\([^)]*\))")
+STUDY_ABROAD_ENTRY_RE = re.compile(r"Entry requirement:\s*(.+?)(?:\.\s*Specialties:|$)")
+
 # Degree/programme tokens we recognise in free-text "Approvals/programmes"
 # notes, e.g. "MBBS, BDS, MD" or "BA LLB, BBA LLB, LLM" or "B.Des, M.Des".
 # Only real degree names are matched — accreditation strings like
@@ -124,12 +145,26 @@ def parse_notes(notes):
         m = NOTES_FEE_RE.search(notes)
         if m:
             fee = m.group(1).strip() + " / year"
+        else:
+            # Study Abroad format — "Fees/yr: 45k-58k (AUD/yr) (partner-
+            # quoted, ...)" — the unit is already embedded in the captured
+            # group, so no " / year" suffix is appended here.
+            m = STUDY_ABROAD_FEE_RE.search(notes)
+            if m:
+                fee = m.group(1).strip()
         m = NOTES_APPROVALS_RE.search(notes)
         if m:
             approvals = m.group(1).strip()
         m = NOTES_ENTRANCE_RE.search(notes)
         if m:
             entrance = m.group(1).strip()
+        else:
+            # Study Abroad format has no "Entrance route:" — use the
+            # equivalent "Entry requirement:" (academic % + English test
+            # score) instead.
+            m = STUDY_ABROAD_ENTRY_RE.search(notes)
+            if m:
+                entrance = m.group(1).strip()
     return fee, approvals, entrance
 
 
@@ -137,8 +172,8 @@ institutions = rows_as_dicts("INSTITUTIONS")
 
 colleges = []
 for r in institutions:
-    if r.get("Primary Course") == "Study Abroad" or r.get("Active for 2027") != "Yes":
-        continue  # explicitly not an active vertical yet — see Important Notes
+    if r.get("Active for 2027") != "Yes":
+        continue  # not an active vertical yet — see Important Notes
 
     name = clean(r.get("University/College Name"))
     if not name:

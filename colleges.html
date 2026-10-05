@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>College Directory — Engineering, Management, Medical & Law Colleges | DegreeLelo</title>
-<meta name="description" content="Browse 343 colleges across India for Engineering, Management, Medical, Law, and Design admissions. Filter by state and category, with verified and partner-network institutions clearly marked.">
+<title>College Directory — Engineering, Management, Medical, Law & Study Abroad | DegreeLelo</title>
+<meta name="description" content="Browse 468 institutions for Engineering, Management, Medical, Law, Design, and Study Abroad admissions. Filter by state, country, category, or course, and search by name.">
 <link rel="canonical" href="https://degreelelo-ux.github.io/degreelelo/colleges.html">
 <meta name="robots" content="index, follow">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="College Directory — Engineering, Management, Medical & Law Colleges | DegreeLelo">
-<meta property="og:description" content="Browse 343 colleges across India for Engineering, Management, Medical, Law, and Design admissions. Filter by state and category, with verified and partner-network institutions clearly marked.">
+<meta property="og:title" content="College Directory — Engineering, Management, Medical, Law & Study Abroad | DegreeLelo">
+<meta property="og:description" content="Browse 468 institutions for Engineering, Management, Medical, Law, Design, and Study Abroad admissions. Filter by state, country, category, or course, and search by name.">
 <meta property="og:url" content="https://degreelelo-ux.github.io/degreelelo/colleges.html">
 <meta property="og:image" content="https://degreelelo-ux.github.io/degreelelo/assets/og-image.png">
 <meta property="og:site_name" content="DegreeLelo">
@@ -19,8 +19,8 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="College Directory — Engineering, Management, Medical & Law Colleges | DegreeLelo">
-<meta name="twitter:description" content="Browse 343 colleges across India for Engineering, Management, Medical, Law, and Design admissions. Filter by state and category, with verified and partner-network institutions clearly marked.">
+<meta name="twitter:title" content="College Directory — Engineering, Management, Medical, Law & Study Abroad | DegreeLelo">
+<meta name="twitter:description" content="Browse 468 institutions for Engineering, Management, Medical, Law, Design, and Study Abroad admissions. Filter by state, country, category, or course, and search by name.">
 <meta name="twitter:image" content="https://degreelelo-ux.github.io/degreelelo/assets/og-image.png">
 
 <link rel="icon" href="assets/favicon.ico" sizes="any">
@@ -31,7 +31,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=5">
+<link rel="stylesheet" href="css/style.css?v=6">
 
 </head>
 <body>
@@ -88,7 +88,7 @@
   <div class="container">
     <span class="eyebrow">College Directory</span>
     <h1>College Directory</h1>
-    <p class="lede">343 institutions across Engineering, Management, Medical, Law, and Design, compiled from our own verified research and our partner counselling network. Filter by state, category, or course, or search by name.</p>
+    <p class="lede">468 institutions across Engineering, Management, Medical, Law, Design, and Study Abroad, compiled from our own verified research and our partner counselling network. Filter by state, country, category, or course, or search by name.</p>
   </div>
 </div>
 
@@ -127,6 +127,26 @@
         </select>
       </div>
       <div class="field">
+        <label for="dir-country">Country</label>
+        <select id="dir-country">
+          <option value="">All countries</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Cyprus">Cyprus</option>
+            <option value="Hungary">Hungary</option>
+            <option value="Ireland">Ireland</option>
+            <option value="Italy">Italy</option>
+            <option value="Japan">Japan</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Malta">Malta</option>
+            <option value="New Zealand">New Zealand</option>
+            <option value="Spain">Spain</option>
+            <option value="Sweden">Sweden</option>
+            <option value="UAE">UAE</option>
+            <option value="UK">UK</option>
+        </select>
+      </div>
+      <div class="field">
         <label for="dir-category">Category</label>
         <select id="dir-category">
           <option value="">All categories</option>
@@ -137,6 +157,7 @@
             <option value="Management">Management</option>
             <option value="Medical">Medical</option>
             <option value="Other">Other</option>
+            <option value="Study Abroad">Study Abroad</option>
         </select>
       </div>
       <div class="field">
@@ -175,7 +196,7 @@
     <div id="directory-empty" class="empty-state" hidden>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.5"/><line x1="12" y1="11" x2="12" y2="16.5"/><circle cx="12" cy="7.6" r="0.9" fill="currentColor" stroke="none"/></svg>
       <h2 style="font-size:var(--text-xl);">No colleges match those filters</h2>
-      <p>Try a different state, category, or search term &mdash; or talk to a counsellor directly.</p>
+      <p>Try a different state, country, category, or search term &mdash; or talk to a counsellor directly.</p>
       <div class="cta-row" style="justify-content:center; margin-top:1.5rem;">
         <button type="button" class="btn btn-primary" data-modal-trigger>Enquire Now</button>
       </div>
@@ -326,6 +347,6 @@
     </div>
   </div>
 </div>
-<script src="js/main.js?v=5"></script>
+<script src="js/main.js?v=6"></script>
 </body>
 </html>
